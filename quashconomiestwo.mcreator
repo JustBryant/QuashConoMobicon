@@ -814,6 +814,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "quash_shovel_r_3"
+    },
+    {
+      "name": "QuashPlanks",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_planks"
+    },
+    {
+      "name": "QuashLog",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_log"
+    },
+    {
+      "name": "Quashlogtoplank",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashlogtoplank"
     }
   ],
   "variable_elements": [],
@@ -825,10 +852,12 @@
       "item.quashconomiestwo.quashling": "Quashling",
       "item.quashconomiestwo.the_good_goop": "The Good Goop",
       "item.quashconomiestwo.quash_god_armour_boots": "Quash God Armour Boots",
+      "block.quashconomiestwo.quash_planks": "Quash Planks",
       "block.quashconomiestwo.tea_compressor": "Tea Compressor",
       "block.quashconomiestwo.quashtea_ore": "Quashtea Ore",
       "item.quashconomiestwo.essenceof_ra": "Ra Essence",
       "item.quashconomiestwo.quashbuck": "Quashbuck",
+      "block.quashconomiestwo.quash_log": "Quash Log",
       "item.quashconomiestwo.quash_god": "Strength of the Quash",
       "item.quashconomiestwo.quash_pick": "Quash Pick",
       "item.quashconomiestwo.goopling": "Goopling",

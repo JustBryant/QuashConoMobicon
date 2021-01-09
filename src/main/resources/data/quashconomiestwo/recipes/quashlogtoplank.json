@@ -1,0 +1,13 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quashconomiestwo:quash_log"
+    }
+  ],
+  "result": {
+    "item": "quashconomiestwo:quash_planks",
+    "count": 4
+  }
+}

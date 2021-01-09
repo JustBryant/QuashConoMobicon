@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "quashconomiestwo:blocks/planks",
+    "up": "quashconomiestwo:blocks/planks",
+    "north": "quashconomiestwo:blocks/planks",
+    "east": "quashconomiestwo:blocks/planks",
+    "south": "quashconomiestwo:blocks/planks",
+    "west": "quashconomiestwo:blocks/planks",
+    "particle": "quashconomiestwo:blocks/planks"
+  }
+}
