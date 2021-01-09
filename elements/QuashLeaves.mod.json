@@ -91,16 +91,22 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Quashiome"
+      }
+    ],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.AIR"
       }
     ],
     "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
+    "frequencyOnChunk": 8,
+    "minGenerateHeight": 50,
     "maxGenerateHeight": 64
   }
 }

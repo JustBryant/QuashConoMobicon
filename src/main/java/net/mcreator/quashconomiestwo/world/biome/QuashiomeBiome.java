@@ -89,11 +89,6 @@ public class QuashiomeBiome extends QuashconomiestwoModElements.ModElement {
 				biomeGenerationSettings.withStructure(StructureFeatures.MINESHAFT);
 				biomeGenerationSettings.withStructure(StructureFeatures.PILLAGER_OUTPOST);
 				biomeGenerationSettings.withStructure(StructureFeatures.VILLAGE_PLAINS);
-				biomeGenerationSettings.withStructure(StructureFeatures.MANSION);
-				biomeGenerationSettings.withStructure(StructureFeatures.JUNGLE_PYRAMID);
-				biomeGenerationSettings.withStructure(StructureFeatures.DESERT_PYRAMID);
-				biomeGenerationSettings.withStructure(StructureFeatures.IGLOO);
-				biomeGenerationSettings.withStructure(StructureFeatures.MONUMENT);
 				biomeGenerationSettings.withStructure(StructureFeatures.SHIPWRECK);
 				biomeGenerationSettings.withStructure(StructureFeatures.OCEAN_RUIN_COLD);
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.TREE
@@ -112,11 +107,11 @@ public class QuashiomeBiome extends QuashconomiestwoModElements.ModElement {
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 						Feature.RANDOM_PATCH.withConfiguration(
 								(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.BROWN_MUSHROOM.getDefaultState()),
-										SimpleBlockPlacer.PLACER)).tries(5).func_227317_b_().build()));
+										SimpleBlockPlacer.PLACER)).tries(3).func_227317_b_().build()));
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 						Feature.RANDOM_PATCH.withConfiguration(
 								(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.RED_MUSHROOM.getDefaultState()),
-										SimpleBlockPlacer.PLACER)).tries(5).func_227317_b_().build()));
+										SimpleBlockPlacer.PLACER)).tries(3).func_227317_b_().build()));
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 						Feature.HUGE_BROWN_MUSHROOM.withConfiguration(new BigMushroomFeatureConfig(
 								new SimpleBlockStateProvider(Blocks.BROWN_MUSHROOM_BLOCK.getDefaultState().with(HugeMushroomBlock.UP, Boolean.TRUE)
@@ -146,7 +141,7 @@ public class QuashiomeBiome extends QuashconomiestwoModElements.ModElement {
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 						Feature.RANDOM_PATCH.withConfiguration(
 								(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.CACTUS.getDefaultState()),
-										new ColumnBlockPlacer(1, 2))).tries(3).func_227317_b_().build()));
+										new ColumnBlockPlacer(1, 2))).tries(1).func_227317_b_().build()));
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.MUSHROOM).depth(0.015f).scale(0.3f)
 						.temperature(0.5f).downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
