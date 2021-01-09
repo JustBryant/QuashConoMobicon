@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "quashconomiestwo:blocks/stripped_log_top",
+    "up": "quashconomiestwo:blocks/stripped_log_top",
+    "north": "quashconomiestwo:blocks/stripped_log_side",
+    "east": "quashconomiestwo:blocks/stripped_log_side",
+    "south": "quashconomiestwo:blocks/stripped_log_side",
+    "west": "quashconomiestwo:blocks/stripped_log_side",
+    "particle": "quashconomiestwo:blocks/stripped_log_top"
+  }
+}

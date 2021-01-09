@@ -859,6 +859,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "quashiome"
+    },
+    {
+      "name": "StrippedQuashLog",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stripped_quash_log"
+    },
+    {
+      "name": "StrippedToPlank",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stripped_to_plank"
     }
   ],
   "variable_elements": [],
@@ -879,6 +897,7 @@
       "block.quashconomiestwo.quash_log": "Quash Log",
       "item.quashconomiestwo.quash_god": "Strength of the Quash",
       "item.quashconomiestwo.quash_pick": "Quash Pick",
+      "block.quashconomiestwo.stripped_quash_log": "Stripped Quash Log",
       "item.quashconomiestwo.goopling": "Goopling",
       "item.quashconomiestwo.quash_res": "Resistance of the Quash",
       "biome.quashconomiestwo.quashiome": "Quashiome",
