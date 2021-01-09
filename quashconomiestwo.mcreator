@@ -778,23 +778,59 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "quash_axe_recipe_2"
+    },
+    {
+      "name": "QuashShovel",
+      "type": "tool",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_shovel"
+    },
+    {
+      "name": "QuashShovelR1",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_shovel_r_1"
+    },
+    {
+      "name": "QuashShovelR2",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_shovel_r_2"
+    },
+    {
+      "name": "QuashShovelR3",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_shovel_r_3"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.quashconomiestwo.quashling": "Quashling",
-      "item.quashconomiestwo.quash_stick": "Quash Stick",
       "item.quashconomiestwo.quash_god_armour_leggings": "Quash God Armour Leggings",
+      "item.quashconomiestwo.quash_stick": "Quash Stick",
+      "item.quashconomiestwo.quashling": "Quashling",
       "item.quashconomiestwo.the_good_goop": "The Good Goop",
       "item.quashconomiestwo.quash_god_armour_boots": "Quash God Armour Boots",
       "block.quashconomiestwo.tea_compressor": "Tea Compressor",
       "block.quashconomiestwo.quashtea_ore": "Quashtea Ore",
       "item.quashconomiestwo.essenceof_ra": "Ra Essence",
       "item.quashconomiestwo.quashbuck": "Quashbuck",
-      "item.quashconomiestwo.quash_pick": "Quash Pick",
       "item.quashconomiestwo.quash_god": "Strength of the Quash",
+      "item.quashconomiestwo.quash_pick": "Quash Pick",
       "item.quashconomiestwo.goopling": "Goopling",
       "item.quashconomiestwo.quash_res": "Resistance of the Quash",
       "item.quashconomiestwo.essenceof_slifer": "Slifer Essence",
@@ -802,6 +838,7 @@
       "block.quashconomiestwo.quashcent_ore": "Quashcent Ore",
       "item.quashconomiestwo.quash_tea": "Quashtea",
       "item.quashconomiestwo.quash_axe": "Quash Axe",
+      "item.quashconomiestwo.quash_shovel": "Quash Shovel",
       "item.quashconomiestwo.quash_cent": "Quashcent",
       "item.quashconomiestwo.goopbuck": "Goopbuck",
       "item.quashconomiestwo.quash_god_armour_chestplate": "Quash God Armour Body",
