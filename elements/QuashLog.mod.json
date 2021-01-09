@@ -91,6 +91,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "QuashLogOnBlockRightClicked"
+    },
     "spawnWorldTypes": [
       "Surface"
     ],
@@ -99,11 +102,7 @@
         "value": "CUSTOM:Quashiome"
       }
     ],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.AIR"
-      }
-    ],
+    "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 8,
     "minGenerateHeight": 50,
