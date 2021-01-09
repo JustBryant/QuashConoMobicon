@@ -51,7 +51,7 @@
     "reedsPerChunk": 3,
     "cactiPerChunk": 1,
     "treesPerChunk": 8,
-    "vanillaTreeType": "Birch trees",
+    "vanillaTreeType": "Default",
     "treeType": 1,
     "minHeight": 6,
     "treeStem": {
@@ -69,25 +69,15 @@
     "spawnStronghold": true,
     "spawnMineshaft": true,
     "spawnPillagerOutpost": true,
-    "villageType": "plains",
+    "villageType": "none",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,
     "spawnIgloo": false,
     "spawnOceanMonument": false,
     "spawnShipwreck": true,
-    "oceanRuinType": "COLD",
-    "defaultFeatures": [
-      "Caves",
-      "Ores",
-      "ExtraGoldOre",
-      "ExtraEmeraldOre",
-      "Bamboo",
-      "Fossils",
-      "Icebergs",
-      "Lakes",
-      "MonsterRooms"
-    ],
+    "oceanRuinType": "NONE",
+    "defaultFeatures": [],
     "spawnEntries": []
   }
 }
