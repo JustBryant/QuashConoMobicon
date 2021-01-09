@@ -1,0 +1,93 @@
+{
+  "_fv": 15,
+  "_type": "biome",
+  "definition": {
+    "name": "Quashiome",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "airColor": {
+      "value": -13382656,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -6750055,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -6750055,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -6684775,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -6684775,
+      "falpha": 0.0
+    },
+    "biomeCategory": "MUSHROOM",
+    "parent": {
+      "value": "No parent"
+    },
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.015,
+    "heightVariation": 0.3,
+    "biomeType": "WARM",
+    "spawnBiome": true,
+    "biomeWeight": 10,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 5,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 5,
+    "bigMushroomsChunk": 1,
+    "sandPatchesPerChunk": 1,
+    "gravelPatchesPerChunk": 1,
+    "reedsPerChunk": 3,
+    "cactiPerChunk": 3,
+    "treesPerChunk": 8,
+    "vanillaTreeType": "Birch trees",
+    "treeType": 1,
+    "minHeight": 6,
+    "treeStem": {
+      "value": "CUSTOM:QuashLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:QuashLeaves"
+    },
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "plains",
+    "spawnWoodlandMansion": true,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": true,
+    "spawnIgloo": true,
+    "spawnOceanMonument": true,
+    "spawnShipwreck": true,
+    "oceanRuinType": "COLD",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "ExtraGoldOre",
+      "ExtraEmeraldOre",
+      "Bamboo",
+      "Fossils",
+      "Icebergs",
+      "Lakes",
+      "MonsterRooms"
+    ],
+    "spawnEntries": []
+  }
+}
