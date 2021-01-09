@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "quashconomiestwo:block/stripped_quash_log"
+    },
+    "facing=north": {
+      "model": "quashconomiestwo:block/stripped_quash_log"
+    },
+    "facing=east": {
+      "model": "quashconomiestwo:block/stripped_quash_log",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "quashconomiestwo:block/stripped_quash_log",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "quashconomiestwo:block/stripped_quash_log",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "quashconomiestwo:block/stripped_quash_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}
