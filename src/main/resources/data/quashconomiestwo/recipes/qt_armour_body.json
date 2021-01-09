@@ -1,0 +1,39 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "quashconomiestwo:quash_tea"
+    },
+    "2": {
+      "item": "quashconomiestwo:quash_tea"
+    },
+    "3": {
+      "item": "quashconomiestwo:quash_tea"
+    },
+    "4": {
+      "item": "quashconomiestwo:quash_tea"
+    },
+    "5": {
+      "item": "quashconomiestwo:quash_tea"
+    },
+    "6": {
+      "item": "quashconomiestwo:quash_tea"
+    },
+    "7": {
+      "item": "quashconomiestwo:quash_tea"
+    },
+    "8": {
+      "item": "quashconomiestwo:quash_tea"
+    }
+  },
+  "result": {
+    "item": "quashconomiestwo:quash_tea_armour_chestplate",
+    "count": 1
+  }
+}

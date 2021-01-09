@@ -1,0 +1,842 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "QuashCent",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_cent"
+    },
+    {
+      "name": "QuashTea",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_tea"
+    },
+    {
+      "name": "Quashconomies",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashconomies"
+    },
+    {
+      "name": "Quashling",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashling"
+    },
+    {
+      "name": "Quashbuck",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashbuck"
+    },
+    {
+      "name": "QuashcentOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashcent_ore"
+    },
+    {
+      "name": "QuashbuckOre",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashbuck_ore"
+    },
+    {
+      "name": "QuashlingOre",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashling_ore"
+    },
+    {
+      "name": "QuashteaOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashtea_ore"
+    },
+    {
+      "name": "Quashcentfurnace",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashcentfurnace"
+    },
+    {
+      "name": "Quashbuckfurnace",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashbuckfurnace"
+    },
+    {
+      "name": "QuashlingFurnace",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashling_furnace"
+    },
+    {
+      "name": "TeaSingularityCompressor",
+      "type": "gui",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tea_singularity_compressor"
+    },
+    {
+      "name": "TeaCompressor",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tea_compressor"
+    },
+    {
+      "name": "QuashTeaFurnace",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_tea_furnace"
+    },
+    {
+      "name": "QCtoQB",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "q_cto_qb"
+    },
+    {
+      "name": "QBtoQC",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "q_bto_qc"
+    },
+    {
+      "name": "QBtoQL",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "q_bto_ql"
+    },
+    {
+      "name": "QLtoQB",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "q_lto_qb"
+    },
+    {
+      "name": "QTtoQL",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "q_tto_ql"
+    },
+    {
+      "name": "QCLeather",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qc_leather"
+    },
+    {
+      "name": "Qcleathertwo",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qcleathertwo"
+    },
+    {
+      "name": "QBtoIron",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "q_bto_iron"
+    },
+    {
+      "name": "QBtoIrontwo",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "q_bto_irontwo"
+    },
+    {
+      "name": "QLtoIron",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "q_lto_iron"
+    },
+    {
+      "name": "QuashTeaArmour",
+      "type": "armor",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_tea_armour",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "QTArmourHelm",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qt_armour_helm"
+    },
+    {
+      "name": "QTArmourHelm2",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qt_armour_helm_2"
+    },
+    {
+      "name": "QTArmourBody",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qt_armour_body"
+    },
+    {
+      "name": "QTarmourleggings",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "q_tarmourleggings"
+    },
+    {
+      "name": "QTarmourboots",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "q_tarmourboots"
+    },
+    {
+      "name": "Qtarmourboots2",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qtarmourboots_2"
+    },
+    {
+      "name": "QTBlade",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qt_blade"
+    },
+    {
+      "name": "QuashStick",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_stick"
+    },
+    {
+      "name": "QuashStickRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_stick_recipe"
+    },
+    {
+      "name": "QuashStickRecipe2",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_stick_recipe_2"
+    },
+    {
+      "name": "QuashStick3",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_stick_3"
+    },
+    {
+      "name": "QTBladeRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qt_blade_recipe"
+    },
+    {
+      "name": "QuashPick",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_pick"
+    },
+    {
+      "name": "QuashPickRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_pick_recipe"
+    },
+    {
+      "name": "TeaBlock",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tea_block"
+    },
+    {
+      "name": "TeaBlockRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tea_block_recipe"
+    },
+    {
+      "name": "BlockRevert",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_revert"
+    },
+    {
+      "name": "QuashGodItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_god_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuashGod",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_god"
+    },
+    {
+      "name": "QuashResItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_res_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuashRes",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_res"
+    },
+    {
+      "name": "QuashSTRCraft",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_str_craft"
+    },
+    {
+      "name": "QuashResRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_res_recipe"
+    },
+    {
+      "name": "TheQuashGodItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_quash_god_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheQuashGod",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_quash_god"
+    },
+    {
+      "name": "TheQuashGodRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_quash_god_recipe"
+    },
+    {
+      "name": "EssenceofSlifer",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "essenceof_slifer"
+    },
+    {
+      "name": "EssenceofRa",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "essenceof_ra"
+    },
+    {
+      "name": "EssenceofObelisk",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "essenceof_obelisk"
+    },
+    {
+      "name": "QuashBoosterFoodEaten",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_booster_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuashBooster",
+      "type": "food",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_booster"
+    },
+    {
+      "name": "Goopcent",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goopcent"
+    },
+    {
+      "name": "Goopbuck",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goopbuck"
+    },
+    {
+      "name": "Goopling",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goopling"
+    },
+    {
+      "name": "Goopcentrecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goopcentrecipe"
+    },
+    {
+      "name": "Goopbuckrecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goopbuckrecipe"
+    },
+    {
+      "name": "Gooplingrecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gooplingrecipe"
+    },
+    {
+      "name": "TheGoodGoop",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_good_goop"
+    },
+    {
+      "name": "TheGoopStuff",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_goop_stuff"
+    },
+    {
+      "name": "QuashGodArmourHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_god_armour_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuashGodArmourBodyTickEvent",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_god_armour_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuashGodArmourLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_god_armour_leggings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuashGodArmourBootsTickEvent",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_god_armour_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuashGodArmour",
+      "type": "armor",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_god_armour",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BoosterCraft",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "booster_craft"
+    },
+    {
+      "name": "QGHelmCraft",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qg_helm_craft"
+    },
+    {
+      "name": "QGChestCraft",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qg_chest_craft"
+    },
+    {
+      "name": "QGLeggingsCraft",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qg_leggings_craft"
+    },
+    {
+      "name": "QGBootsCraft",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qg_boots_craft"
+    },
+    {
+      "name": "QuashAxe",
+      "type": "tool",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_axe"
+    },
+    {
+      "name": "QuashAxeRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_axe_recipe"
+    },
+    {
+      "name": "QuashAxeRecipe2",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_axe_recipe_2"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.quashconomiestwo.quashling": "Quashling",
+      "item.quashconomiestwo.quash_stick": "Quash Stick",
+      "item.quashconomiestwo.quash_god_armour_leggings": "Quash God Armour Leggings",
+      "item.quashconomiestwo.the_good_goop": "The Good Goop",
+      "item.quashconomiestwo.quash_god_armour_boots": "Quash God Armour Boots",
+      "block.quashconomiestwo.tea_compressor": "Tea Compressor",
+      "block.quashconomiestwo.quashtea_ore": "Quashtea Ore",
+      "item.quashconomiestwo.essenceof_ra": "Ra Essence",
+      "item.quashconomiestwo.quashbuck": "Quashbuck",
+      "item.quashconomiestwo.quash_pick": "Quash Pick",
+      "item.quashconomiestwo.quash_god": "Strength of the Quash",
+      "item.quashconomiestwo.goopling": "Goopling",
+      "item.quashconomiestwo.quash_res": "Resistance of the Quash",
+      "item.quashconomiestwo.essenceof_slifer": "Slifer Essence",
+      "block.quashconomiestwo.tea_block": "Tea Block",
+      "block.quashconomiestwo.quashcent_ore": "Quashcent Ore",
+      "item.quashconomiestwo.quash_tea": "Quashtea",
+      "item.quashconomiestwo.quash_axe": "Quash Axe",
+      "item.quashconomiestwo.quash_cent": "Quashcent",
+      "item.quashconomiestwo.goopbuck": "Goopbuck",
+      "item.quashconomiestwo.quash_god_armour_chestplate": "Quash God Armour Body",
+      "block.quashconomiestwo.quashbuck_ore": "Quashbuck Ore",
+      "item.quashconomiestwo.quash_booster": "Quash Booster",
+      "item.quashconomiestwo.the_quash_god": "The Quash God",
+      "item.quashconomiestwo.quash_tea_armour_boots": "QT Boots",
+      "item.quashconomiestwo.quash_tea_armour_helmet": "QT Helmet",
+      "item.quashconomiestwo.essenceof_obelisk": "Obelisk Essence",
+      "item.quashconomiestwo.qt_blade": "QT Blade",
+      "itemGroup.tabquashconomies": "Quashconomies",
+      "item.quashconomiestwo.quash_god_armour_helmet": "Quash God Armour Helmet",
+      "item.quashconomiestwo.quash_tea_armour_chestplate": "QT Body",
+      "block.quashconomiestwo.quashling_ore": "Quashling Ore",
+      "item.quashconomiestwo.goopcent": "Goopcent",
+      "item.quashconomiestwo.quash_tea_armour_leggings": "QT Leggings"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "quashconomiestwo",
+    "modName": "Quashconomies Two",
+    "version": "1.0.0",
+    "description": "Quashconomies mod for the Duelist Kingdoms server!",
+    "author": "KingdomsMC",
+    "websiteURL": "kingdomsmc.ca",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.4",
+    "modElementsPackage": "net.mcreator.quashconomiestwo",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000652319
+}

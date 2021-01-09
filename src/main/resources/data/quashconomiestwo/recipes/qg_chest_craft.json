@@ -1,0 +1,16 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quashconomiestwo:the_quash_god"
+    },
+    {
+      "item": "quashconomiestwo:quash_tea_armour_chestplate"
+    }
+  ],
+  "result": {
+    "item": "quashconomiestwo:quash_god_armour_chestplate",
+    "count": 1
+  }
+}

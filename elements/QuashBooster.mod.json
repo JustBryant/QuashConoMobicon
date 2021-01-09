@@ -1,0 +1,31 @@
+{
+  "_fv": 15,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "288085910019211",
+    "customModelName": "Normal",
+    "name": "Quash Booster",
+    "rarity": "RARE",
+    "specialInfo": [
+      "Definitey legal."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Quashconomies"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 20,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "bow",
+    "hasGlow": true,
+    "onEaten": {
+      "name": "QuashBoosterFoodEaten"
+    }
+  }
+}

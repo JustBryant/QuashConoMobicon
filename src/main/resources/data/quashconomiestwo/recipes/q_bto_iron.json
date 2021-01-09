@@ -1,0 +1,32 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "quashconomiestwo:quashbuck"
+    },
+    "1": {
+      "item": "quashconomiestwo:quashbuck"
+    },
+    "2": {
+      "item": "quashconomiestwo:quashbuck"
+    },
+    "3": {
+      "item": "quashconomiestwo:quashbuck"
+    },
+    "4": {
+      "item": "quashconomiestwo:quashbuck"
+    },
+    "5": {
+      "item": "quashconomiestwo:quashbuck"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_ingot",
+    "count": 3
+  }
+}

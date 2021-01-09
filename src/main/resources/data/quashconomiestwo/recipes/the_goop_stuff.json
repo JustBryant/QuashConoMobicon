@@ -1,0 +1,19 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quashconomiestwo:goopcent"
+    },
+    {
+      "item": "quashconomiestwo:goopbuck"
+    },
+    {
+      "item": "quashconomiestwo:goopling"
+    }
+  ],
+  "result": {
+    "item": "quashconomiestwo:the_good_goop",
+    "count": 1
+  }
+}

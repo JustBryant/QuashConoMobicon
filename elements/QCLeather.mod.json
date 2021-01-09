@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:QuashCent"
+      },
+      {
+        "value": "CUSTOM:QuashCent"
+      },
+      {
+        "value": "CUSTOM:QuashCent"
+      },
+      {
+        "value": "CUSTOM:QuashCent"
+      },
+      {
+        "value": "CUSTOM:QuashCent"
+      },
+      {
+        "value": "CUSTOM:QuashCent"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.LEATHER"
+    },
+    "name": "qc_leather",
+    "namespace": "mod"
+  }
+}

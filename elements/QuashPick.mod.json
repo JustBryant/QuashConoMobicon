@@ -1,0 +1,30 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "pickaxe",
+    "customModelName": "Normal",
+    "name": "Quash Pick",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Quashconomies"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 4,
+    "efficiency": 14.0,
+    "attackSpeed": 0.8,
+    "enchantability": 26,
+    "damageVsEntity": 8.0,
+    "usageCount": 2600,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:QuashTea"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:QuashTeaArmour.helmet"
+      },
+      {
+        "value": "CUSTOM:QTBlade"
+      },
+      {
+        "value": "CUSTOM:QuashTeaArmour.body"
+      },
+      {
+        "value": "CUSTOM:QuashGod"
+      },
+      {
+        "value": "Blocks.EMERALD_BLOCK"
+      },
+      {
+        "value": "CUSTOM:QuashRes"
+      },
+      {
+        "value": "CUSTOM:QuashTeaArmour.boots"
+      },
+      {
+        "value": "CUSTOM:QuashPick"
+      },
+      {
+        "value": "CUSTOM:QuashTeaArmour.legs"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TheQuashGod"
+    },
+    "name": "the_quash_god_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "quashconomiestwo:blocks/quashcent_ore",
+    "up": "quashconomiestwo:blocks/quashcent_ore",
+    "north": "quashconomiestwo:blocks/quashcent_ore",
+    "east": "quashconomiestwo:blocks/quashcent_ore",
+    "south": "quashconomiestwo:blocks/quashcent_ore",
+    "west": "quashconomiestwo:blocks/quashcent_ore",
+    "particle": "quashconomiestwo:blocks/quashcent_ore"
+  }
+}

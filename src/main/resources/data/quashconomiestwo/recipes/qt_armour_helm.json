@@ -1,0 +1,29 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "quashconomiestwo:quash_tea"
+    },
+    "1": {
+      "item": "quashconomiestwo:quash_tea"
+    },
+    "2": {
+      "item": "quashconomiestwo:quash_tea"
+    },
+    "3": {
+      "item": "quashconomiestwo:quash_tea"
+    },
+    "5": {
+      "item": "quashconomiestwo:quash_tea"
+    }
+  },
+  "result": {
+    "item": "quashconomiestwo:quash_tea_armour_helmet",
+    "count": 1
+  }
+}

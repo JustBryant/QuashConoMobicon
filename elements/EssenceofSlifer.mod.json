@@ -1,0 +1,32 @@
+{
+  "_fv": 15,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "slifer_energy",
+    "customModelName": "Normal",
+    "name": "Slifer Essence",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:Quashconomies"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64
+  }
+}

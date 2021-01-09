@@ -1,0 +1,37 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quashconomiestwo:quash_tea_armour_helmet"
+    },
+    {
+      "item": "quashconomiestwo:qt_blade"
+    },
+    {
+      "item": "quashconomiestwo:quash_tea_armour_chestplate"
+    },
+    {
+      "item": "quashconomiestwo:quash_god"
+    },
+    {
+      "item": "minecraft:emerald_block"
+    },
+    {
+      "item": "quashconomiestwo:quash_res"
+    },
+    {
+      "item": "quashconomiestwo:quash_tea_armour_boots"
+    },
+    {
+      "item": "quashconomiestwo:quash_pick"
+    },
+    {
+      "item": "quashconomiestwo:quash_tea_armour_leggings"
+    }
+  ],
+  "result": {
+    "item": "quashconomiestwo:the_quash_god",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:smelting",
+  "experience": 20,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "quashconomiestwo:quashtea_ore"
+  },
+  "result": {
+    "item": "quashconomiestwo:quash_tea"
+  }
+}

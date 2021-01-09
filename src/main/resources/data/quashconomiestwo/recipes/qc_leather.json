@@ -1,0 +1,32 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "quashconomiestwo:quash_cent"
+    },
+    "1": {
+      "item": "quashconomiestwo:quash_cent"
+    },
+    "2": {
+      "item": "quashconomiestwo:quash_cent"
+    },
+    "3": {
+      "item": "quashconomiestwo:quash_cent"
+    },
+    "4": {
+      "item": "quashconomiestwo:quash_cent"
+    },
+    "5": {
+      "item": "quashconomiestwo:quash_cent"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather",
+    "count": 3
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quashconomiestwo:tea_block"
+    }
+  ],
+  "result": {
+    "item": "quashconomiestwo:quash_tea",
+    "count": 9
+  }
+}

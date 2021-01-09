@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "quashconomiestwo:blocks/tea_compression",
+    "up": "quashconomiestwo:blocks/tea_compression",
+    "north": "quashconomiestwo:blocks/tea_compression",
+    "east": "quashconomiestwo:blocks/tea_compression",
+    "south": "quashconomiestwo:blocks/tea_compression",
+    "west": "quashconomiestwo:blocks/tea_compression",
+    "particle": "quashconomiestwo:blocks/tea_compression"
+  }
+}

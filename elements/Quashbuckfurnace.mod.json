@@ -1,0 +1,20 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 5.0,
+    "cookingTime": 160,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:QuashbuckOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Quashbuck"
+    },
+    "name": "quashbuckfurnace",
+    "namespace": "mod"
+  }
+}

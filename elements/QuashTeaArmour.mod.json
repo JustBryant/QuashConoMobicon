@@ -1,0 +1,58 @@
+{
+  "_fv": 15,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "tea_helmet",
+    "enableBody": true,
+    "textureBody": "tea_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "tea_leggings",
+    "enableBoots": true,
+    "textureBoots": "tea_boots",
+    "creativeTab": {
+      "value": "CUSTOM:Quashconomies"
+    },
+    "armorTextureFile": "tea_",
+    "helmetName": "QT Helmet",
+    "bodyName": "QT Body",
+    "leggingsName": "QT Leggings",
+    "bootsName": "QT Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 46,
+    "damageValueHelmet": 4,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 4,
+    "enchantability": 28,
+    "toughness": 4.0,
+    "knockbackResistance": 0.2,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:QuashTea"
+      }
+    ]
+  }
+}

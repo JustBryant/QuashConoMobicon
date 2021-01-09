@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Quashling"
+      },
+      {
+        "value": "CUSTOM:Quashling"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Quashling"
+      },
+      {
+        "value": "CUSTOM:Quashling"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.GOLD_INGOT"
+    },
+    "name": "q_lto_gold",
+    "namespace": "mod"
+  }
+}

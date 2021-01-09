@@ -1,0 +1,22 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quashconomiestwo:quashling"
+    },
+    {
+      "item": "quashconomiestwo:quashling"
+    },
+    {
+      "item": "quashconomiestwo:quashling"
+    },
+    {
+      "item": "quashconomiestwo:quashling"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_ingot",
+    "count": 4
+  }
+}

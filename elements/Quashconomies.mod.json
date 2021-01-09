@@ -1,0 +1,11 @@
+{
+  "_fv": 15,
+  "_type": "tab",
+  "definition": {
+    "name": "Quashconomies",
+    "icon": {
+      "value": "CUSTOM:QuashTea"
+    },
+    "showSearch": true
+  }
+}

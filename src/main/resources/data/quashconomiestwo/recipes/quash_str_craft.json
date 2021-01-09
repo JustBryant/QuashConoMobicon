@@ -1,0 +1,42 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "quashconomiestwo:tea_block"
+    },
+    "1": {
+      "item": "quashconomiestwo:quash_cent"
+    },
+    "2": {
+      "item": "quashconomiestwo:tea_block"
+    },
+    "3": {
+      "item": "quashconomiestwo:quash_tea"
+    },
+    "4": {
+      "item": "quashconomiestwo:qt_blade"
+    },
+    "5": {
+      "item": "quashconomiestwo:quashbuck"
+    },
+    "6": {
+      "item": "quashconomiestwo:tea_block"
+    },
+    "7": {
+      "item": "quashconomiestwo:quashling"
+    },
+    "8": {
+      "item": "quashconomiestwo:tea_block"
+    }
+  },
+  "result": {
+    "item": "quashconomiestwo:quash_god",
+    "count": 1
+  }
+}
