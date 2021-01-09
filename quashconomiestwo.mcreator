@@ -882,7 +882,7 @@
       "name": "QuashTree",
       "type": "structure",
       "sortid": 84,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "quash_tree"
@@ -891,7 +891,7 @@
       "name": "QuashLogOnBlockRightClicked",
       "type": "procedure",
       "sortid": 84,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "quash_log_on_block_right_clicked",
