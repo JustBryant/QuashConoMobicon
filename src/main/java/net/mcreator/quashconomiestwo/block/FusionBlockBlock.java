@@ -20,11 +20,11 @@ import java.util.List;
 import java.util.Collections;
 
 @QuashconomiestwoModElements.ModElement.Tag
-public class TeaBlockBlock extends QuashconomiestwoModElements.ModElement {
-	@ObjectHolder("quashconomiestwo:tea_block")
+public class FusionBlockBlock extends QuashconomiestwoModElements.ModElement {
+	@ObjectHolder("quashconomiestwo:fusion_block")
 	public static final Block block = null;
-	public TeaBlockBlock(QuashconomiestwoModElements instance) {
-		super(instance, 41);
+	public FusionBlockBlock(QuashconomiestwoModElements instance) {
+		super(instance, 85);
 	}
 
 	@Override
@@ -35,9 +35,9 @@ public class TeaBlockBlock extends QuashconomiestwoModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.SLIME).hardnessAndResistance(8f, 900f).setLightLevel(s -> 0).harvestLevel(4)
-					.harvestTool(ToolType.PICKAXE).slipperiness(1f));
-			setRegistryName("tea_block");
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(25f, 99f).setLightLevel(s -> 0).harvestLevel(3)
+					.harvestTool(ToolType.PICKAXE));
+			setRegistryName("fusion_block");
 		}
 
 		@Override

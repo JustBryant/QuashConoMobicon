@@ -1,0 +1,42 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "quashconomiestwo:quashcent_block"
+    },
+    "1": {
+      "item": "quashconomiestwo:quashbuck_block"
+    },
+    "2": {
+      "item": "quashconomiestwo:quashling_block"
+    },
+    "3": {
+      "item": "quashconomiestwo:quashcent_block"
+    },
+    "4": {
+      "item": "quashconomiestwo:quashbuck_block"
+    },
+    "5": {
+      "item": "quashconomiestwo:quashling_block"
+    },
+    "6": {
+      "item": "quashconomiestwo:quashcent_block"
+    },
+    "7": {
+      "item": "quashconomiestwo:quashbuck_block"
+    },
+    "8": {
+      "item": "quashconomiestwo:quashling_block"
+    }
+  },
+  "result": {
+    "item": "quashconomiestwo:fusion_block",
+    "count": 1
+  }
+}

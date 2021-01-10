@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "quashconomiestwo:blocks/fusion_block",
+    "up": "quashconomiestwo:blocks/fusion_block",
+    "north": "quashconomiestwo:blocks/fusion_block",
+    "east": "quashconomiestwo:blocks/fusion_block",
+    "south": "quashconomiestwo:blocks/fusion_block",
+    "west": "quashconomiestwo:blocks/fusion_block",
+    "particle": "quashconomiestwo:blocks/fusion_block"
+  }
+}

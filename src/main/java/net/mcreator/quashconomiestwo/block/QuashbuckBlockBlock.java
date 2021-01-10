@@ -2,7 +2,6 @@
 package net.mcreator.quashconomiestwo.block;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.common.ToolType;
 
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -20,11 +19,11 @@ import java.util.List;
 import java.util.Collections;
 
 @QuashconomiestwoModElements.ModElement.Tag
-public class TeaBlockBlock extends QuashconomiestwoModElements.ModElement {
-	@ObjectHolder("quashconomiestwo:tea_block")
+public class QuashbuckBlockBlock extends QuashconomiestwoModElements.ModElement {
+	@ObjectHolder("quashconomiestwo:quashbuck_block")
 	public static final Block block = null;
-	public TeaBlockBlock(QuashconomiestwoModElements instance) {
-		super(instance, 41);
+	public QuashbuckBlockBlock(QuashconomiestwoModElements instance) {
+		super(instance, 87);
 	}
 
 	@Override
@@ -35,9 +34,8 @@ public class TeaBlockBlock extends QuashconomiestwoModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.SLIME).hardnessAndResistance(8f, 900f).setLightLevel(s -> 0).harvestLevel(4)
-					.harvestTool(ToolType.PICKAXE).slipperiness(1f));
-			setRegistryName("tea_block");
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(20f, 25f).setLightLevel(s -> 0));
+			setRegistryName("quashbuck_block");
 		}
 
 		@Override

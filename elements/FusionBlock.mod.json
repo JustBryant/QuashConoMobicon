@@ -2,12 +2,12 @@
   "_fv": 15,
   "_type": "block",
   "definition": {
-    "texture": "tea_block",
-    "textureTop": "tea_block",
-    "textureLeft": "tea_block",
-    "textureFront": "tea_block",
-    "textureRight": "tea_block",
-    "textureBack": "tea_block",
+    "texture": "fusion_block",
+    "textureTop": "fusion_block",
+    "textureLeft": "fusion_block",
+    "textureFront": "fusion_block",
+    "textureRight": "fusion_block",
+    "textureBack": "fusion_block",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -24,10 +24,10 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Tea Block",
+    "name": "Fusion Block",
     "specialInfo": [],
-    "hardness": 8.0,
-    "resistance": 900.0,
+    "hardness": 25.0,
+    "resistance": 99.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -44,7 +44,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -58,15 +58,15 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 1.0,
+    "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "SLIME"
+      "value": "METAL"
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 4,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
