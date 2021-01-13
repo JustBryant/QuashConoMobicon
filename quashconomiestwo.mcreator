@@ -891,7 +891,7 @@
       "name": "QuashbuckBlock",
       "type": "block",
       "sortid": 87,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "quashbuck_block"
@@ -900,7 +900,7 @@
       "name": "QuashcentBlock",
       "type": "block",
       "sortid": 86,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "quashcent_block"
@@ -936,7 +936,7 @@
       "name": "QuashlingBlock",
       "type": "block",
       "sortid": 88,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "quashling_block"
@@ -954,7 +954,7 @@
       "name": "FusionBlock",
       "type": "block",
       "sortid": 85,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "fusion_block"
@@ -991,9 +991,9 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.quashconomiestwo.quashling": "Quashling",
-      "item.quashconomiestwo.quash_stick": "Quash Stick",
       "item.quashconomiestwo.quash_god_armour_leggings": "Quash God Armour Leggings",
+      "item.quashconomiestwo.quash_stick": "Quash Stick",
+      "item.quashconomiestwo.quashling": "Quashling",
       "item.quashconomiestwo.the_good_goop": "The Good Goop",
       "item.quashconomiestwo.quash_god_armour_boots": "Quash God Armour Boots",
       "block.quashconomiestwo.quash_planks": "Quash Planks",
@@ -1008,6 +1008,7 @@
       "block.quashconomiestwo.stripped_quash_log": "Stripped Quash Log",
       "item.quashconomiestwo.goopling": "Goopling",
       "item.quashconomiestwo.quash_res": "Resistance of the Quash",
+      "block.quashconomiestwo.quashbuck_block": "Quashbuck Block",
       "biome.quashconomiestwo.quashiome": "Quashiome",
       "item.quashconomiestwo.essenceof_slifer": "Slifer Essence",
       "block.quashconomiestwo.tea_block": "Tea Block",
@@ -1023,14 +1024,17 @@
       "item.quashconomiestwo.the_quash_god": "The Quash God",
       "item.quashconomiestwo.quash_tea_armour_boots": "QT Boots",
       "item.quashconomiestwo.quash_tea_armour_helmet": "QT Helmet",
+      "block.quashconomiestwo.quashling_block": "Quashling Block",
       "item.quashconomiestwo.essenceof_obelisk": "Obelisk Essence",
       "item.quashconomiestwo.qt_blade": "QT Blade",
+      "block.quashconomiestwo.quashcent_block": "Quashcent Block",
       "itemGroup.tabquashconomies": "Quashconomies",
       "item.quashconomiestwo.quash_god_armour_helmet": "Quash God Armour Helmet",
       "item.quashconomiestwo.quash_tea_armour_chestplate": "QT Body",
       "block.quashconomiestwo.quashling_ore": "Quashling Ore",
       "item.quashconomiestwo.goopcent": "Goopcent",
-      "item.quashconomiestwo.quash_tea_armour_leggings": "QT Leggings"
+      "item.quashconomiestwo.quash_tea_armour_leggings": "QT Leggings",
+      "block.quashconomiestwo.fusion_block": "Fusion Block"
     }
   },
   "workspaceSettings": {
