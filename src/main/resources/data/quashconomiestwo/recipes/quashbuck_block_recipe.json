@@ -1,0 +1,37 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quashconomiestwo:quashbuck"
+    },
+    {
+      "item": "quashconomiestwo:quashbuck"
+    },
+    {
+      "item": "quashconomiestwo:quashbuck"
+    },
+    {
+      "item": "quashconomiestwo:quashbuck"
+    },
+    {
+      "item": "quashconomiestwo:quashbuck"
+    },
+    {
+      "item": "quashconomiestwo:quashbuck"
+    },
+    {
+      "item": "quashconomiestwo:quashbuck"
+    },
+    {
+      "item": "quashconomiestwo:quashbuck"
+    },
+    {
+      "item": "quashconomiestwo:quashbuck"
+    }
+  ],
+  "result": {
+    "item": "quashconomiestwo:quashbuck_block",
+    "count": 1
+  }
+}

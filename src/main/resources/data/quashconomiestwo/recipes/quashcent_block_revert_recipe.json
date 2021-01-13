@@ -1,0 +1,13 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quashconomiestwo:quashcent_block"
+    }
+  ],
+  "result": {
+    "item": "quashconomiestwo:quash_cent",
+    "count": 9
+  }
+}

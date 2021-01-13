@@ -1,0 +1,13 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quashconomiestwo:unknown_element"
+    }
+  ],
+  "result": {
+    "item": "quashconomiestwo:quashling",
+    "count": 9
+  }
+}

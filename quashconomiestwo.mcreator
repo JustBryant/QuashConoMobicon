@@ -886,6 +886,105 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "quash_tree"
+    },
+    {
+      "name": "QuashbuckBlock",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashbuck_block"
+    },
+    {
+      "name": "QuashcentBlock",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashcent_block"
+    },
+    {
+      "name": "QuashlingBlockRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashling_block_recipe"
+    },
+    {
+      "name": "QuashlingblockRevertRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashlingblock_revert_recipe"
+    },
+    {
+      "name": "QuashbuckBlockRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashbuck_block_recipe"
+    },
+    {
+      "name": "QuashlingBlock",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashling_block"
+    },
+    {
+      "name": "QuashcentBlockRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashcent_block_recipe"
+    },
+    {
+      "name": "FusionBlock",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_block"
+    },
+    {
+      "name": "QuashbuckBlockRevertRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashbuck_block_revert_recipe"
+    },
+    {
+      "name": "FusionblockRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusionblock_recipe"
+    },
+    {
+      "name": "QuashcentBlockRevertRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quashcent_block_revert_recipe"
     }
   ],
   "variable_elements": [],
