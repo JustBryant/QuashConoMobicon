@@ -91,17 +91,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "QuashLogOnBlockRightClicked"
-    },
-    "spawnWorldTypes": [
-      "Surface"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:Quashiome"
-      }
-    ],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
     "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 8,

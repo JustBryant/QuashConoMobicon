@@ -15,7 +15,11 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBlocks": [],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.GRASS"
+      }
+    ],
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Quashiome"
