@@ -891,7 +891,7 @@
       "name": "QuashbuckBlock",
       "type": "block",
       "sortid": 87,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "quashbuck_block"
@@ -900,7 +900,7 @@
       "name": "QuashcentBlock",
       "type": "block",
       "sortid": 86,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "quashcent_block"
@@ -936,7 +936,7 @@
       "name": "QuashlingBlock",
       "type": "block",
       "sortid": 88,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "quashling_block"
@@ -954,7 +954,7 @@
       "name": "FusionBlock",
       "type": "block",
       "sortid": 85,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "fusion_block"
