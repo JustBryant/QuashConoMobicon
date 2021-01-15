@@ -1057,6 +1057,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "frog_the_jam"
+    },
+    {
+      "name": "MokeyMokeyLoot",
+      "type": "loottable",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mokey_mokey_loot"
+    },
+    {
+      "name": "FrogTheJamLoot",
+      "type": "loottable",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frog_the_jam_loot"
+    },
+    {
+      "name": "PlunderBlackBeardLoot",
+      "type": "loottable",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plunder_black_beard_loot"
     }
   ],
   "variable_elements": [],
