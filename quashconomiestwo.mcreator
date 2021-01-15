@@ -1138,6 +1138,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "quash_dirtto_grass"
+    },
+    {
+      "name": "QuashHoe",
+      "type": "tool",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_hoe"
+    },
+    {
+      "name": "EnhancedQuashBlade",
+      "type": "tool",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enhanced_quash_blade"
+    },
+    {
+      "name": "EnhancedQuashBladeCraft",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enhanced_quash_blade_craft"
+    },
+    {
+      "name": "QuashHoeCraft",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_hoe_craft"
+    },
+    {
+      "name": "QuashHoeCraftTwo",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_hoe_craft_two"
     }
   ],
   "variable_elements": [],
@@ -1146,8 +1191,8 @@
     "en_us": {
       "item.quashconomiestwo.the_good_goop": "The Good Goop",
       "item.quashconomiestwo.quash_god_armour_boots": "Quash God Armour Boots",
-      "block.quashconomiestwo.quashtea_ore": "Quashtea Ore",
       "item.quashconomiestwo.essenceof_ra": "Ra Essence",
+      "block.quashconomiestwo.quashtea_ore": "Quashtea Ore",
       "block.quashconomiestwo.quash_log": "Quash Log",
       "entity.quashconomiestwo.penguin_soldier": "Penguin Soldier",
       "item.quashconomiestwo.quash_god": "Strength of the Quash",
@@ -1159,6 +1204,7 @@
       "entity.quashconomiestwo.frog_the_jam": "Frog The Jam",
       "block.quashconomiestwo.quashcent_ore": "Quashcent Ore",
       "item.quashconomiestwo.sonic_duck_spawn_egg": "Sonic Duck Spawn Egg",
+      "item.quashconomiestwo.enhanced_quash_blade": "Enhanced Quash Blade",
       "item.quashconomiestwo.mokey_mokey_spawn_egg": "Mokey Mokey Spawn Egg",
       "item.quashconomiestwo.goopbuck": "Goopbuck",
       "item.quashconomiestwo.quash_god_armour_chestplate": "Quash God Armour Body",
@@ -1167,10 +1213,11 @@
       "item.quashconomiestwo.the_quash_god": "The Quash God",
       "item.quashconomiestwo.flower_wolf_spawn_egg": "Flower Wolf Spawn Egg",
       "block.quashconomiestwo.quashling_block": "Quashling Block",
+      "item.quashconomiestwo.quash_hoe": "Quash Hoe",
       "item.quashconomiestwo.essenceof_obelisk": "Obelisk Essence",
       "entity.quashconomiestwo.sonic_duck": "Sonic Duck",
       "entity.quashconomiestwo.flying_penguin": "Flying Penguin",
-      "item.quashconomiestwo.qt_blade": "QT Blade",
+      "item.quashconomiestwo.qt_blade": "Quash Blade",
       "itemGroup.tabquashconomies": "Quashconomies",
       "item.quashconomiestwo.quash_tea_armour_chestplate": "QT Body",
       "block.quashconomiestwo.quashling_ore": "Quashling Ore",

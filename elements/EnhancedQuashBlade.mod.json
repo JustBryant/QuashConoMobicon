@@ -3,25 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "quash_shovel_real",
+    "texture": "16xsword",
     "customModelName": "Normal",
-    "name": "Quash Shovel",
+    "name": "Enhanced Quash Blade",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Quashconomies"
     },
-    "toolType": "Spade",
+    "toolType": "Sword",
     "harvestLevel": 4,
-    "efficiency": 14.0,
-    "attackSpeed": 1.2,
-    "enchantability": 26,
-    "damageVsEntity": 4.0,
-    "usageCount": 2600,
+    "efficiency": 12.0,
+    "attackSpeed": 4.0,
+    "enchantability": 52,
+    "damageVsEntity": 36.0,
+    "usageCount": 5200,
     "blocksAffected": [],
     "hasGlow": true,
     "repairItems": [
       {
-        "value": "CUSTOM:QuashTea"
+        "value": "CUSTOM:TeaBlock"
       }
     ],
     "stayInGridWhenCrafting": false,
