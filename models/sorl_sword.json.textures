@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "sorlwhitetexture",
+        "1": "sorlgreentexture",
+        "missing": "sorlwhitetexture"
+      },
+      "name": "default"
+    }
+  }
+}

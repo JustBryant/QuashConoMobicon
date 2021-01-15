@@ -1102,6 +1102,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "flying_penguin_loot"
+    },
+    {
+      "name": "RevealingLightSword",
+      "type": "tool",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "revealing_light_sword"
     }
   ],
   "variable_elements": [],
@@ -1110,8 +1119,8 @@
     "en_us": {
       "item.quashconomiestwo.the_good_goop": "The Good Goop",
       "item.quashconomiestwo.quash_god_armour_boots": "Quash God Armour Boots",
-      "block.quashconomiestwo.quashtea_ore": "Quashtea Ore",
       "item.quashconomiestwo.essenceof_ra": "Ra Essence",
+      "block.quashconomiestwo.quashtea_ore": "Quashtea Ore",
       "block.quashconomiestwo.quash_log": "Quash Log",
       "entity.quashconomiestwo.penguin_soldier": "Penguin Soldier",
       "item.quashconomiestwo.quash_god": "Strength of the Quash",
@@ -1147,6 +1156,7 @@
       "block.quashconomiestwo.tea_compressor": "Tea Compressor",
       "block.quashconomiestwo.quash_leaves": "Quash Leaves",
       "item.quashconomiestwo.quashbuck": "Quashbuck",
+      "item.quashconomiestwo.revealing_light_sword": "Revealing Light Sword",
       "item.quashconomiestwo.goopling": "Goopling",
       "item.quashconomiestwo.quash_res": "Resistance of the Quash",
       "block.quashconomiestwo.quashbuck_block": "Quashbuck Block",
