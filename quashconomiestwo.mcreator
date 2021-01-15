@@ -1210,6 +1210,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "quash_paxel_craft"
+    },
+    {
+      "name": "MokeyMokeyKing",
+      "type": "mob",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mokey_mokey_king"
     }
   ],
   "variable_elements": [],
@@ -1218,8 +1227,8 @@
     "en_us": {
       "item.quashconomiestwo.the_good_goop": "The Good Goop",
       "item.quashconomiestwo.quash_god_armour_boots": "Quash God Armour Boots",
-      "block.quashconomiestwo.quashtea_ore": "Quashtea Ore",
       "item.quashconomiestwo.essenceof_ra": "Ra Essence",
+      "block.quashconomiestwo.quashtea_ore": "Quashtea Ore",
       "block.quashconomiestwo.quash_log": "Quash Log",
       "entity.quashconomiestwo.penguin_soldier": "Penguin Soldier",
       "item.quashconomiestwo.quash_god": "Strength of the Quash",
@@ -1258,11 +1267,13 @@
       "item.quashconomiestwo.penguin_soldier_spawn_egg": "Penguin Soldier Spawn Egg",
       "block.quashconomiestwo.tea_compressor": "Tea Compressor",
       "block.quashconomiestwo.quash_leaves": "Quash Leaves",
+      "item.quashconomiestwo.mokey_mokey_king_spawn_egg": "Mokey Mokey King Spawn Egg",
       "item.quashconomiestwo.quashbuck": "Quashbuck",
       "item.quashconomiestwo.revealing_light_sword": "Revealing Light Sword",
       "item.quashconomiestwo.goopling": "Goopling",
       "item.quashconomiestwo.quash_res": "Resistance of the Quash",
       "block.quashconomiestwo.quash_dirt": "Quash Dirt",
+      "entity.quashconomiestwo.mokey_mokey_king": "Mokey Mokey King",
       "block.quashconomiestwo.quashbuck_block": "Quashbuck Block",
       "biome.quashconomiestwo.quashiome": "Quashiome",
       "item.quashconomiestwo.essenceof_slifer": "Slifer Essence",
