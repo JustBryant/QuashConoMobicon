@@ -1,0 +1,12 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:smelting",
+  "experience": 100,
+  "cookingtime": 2400,
+  "ingredient": {
+    "item": "quashconomiestwo:fusion_block"
+  },
+  "result": {
+    "item": "quashconomiestwo:fusion_alloy"
+  }
+}

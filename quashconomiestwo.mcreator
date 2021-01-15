@@ -1302,6 +1302,77 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mokey_mokey_king_loot"
+    },
+    {
+      "name": "FusionAlloy",
+      "type": "item",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_alloy"
+    },
+    {
+      "name": "CondensedFusionAlloy",
+      "type": "item",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_fusion_alloy"
+    },
+    {
+      "name": "TeaCompressorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tea_compressor_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SmeltFusionBlock",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelt_fusion_block"
+    },
+    {
+      "name": "TeaCompressorCraft",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tea_compressor_craft"
+    },
+    {
+      "name": "SingularityTeaBlade",
+      "type": "tool",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "singularity_tea_blade"
+    },
+    {
+      "name": "TeaSingularity",
+      "type": "item",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tea_singularity"
     }
   ],
   "variable_elements": [],
@@ -1351,6 +1422,7 @@
       "block.quashconomiestwo.quash_grass": "Quash Grass",
       "block.quashconomiestwo.quash_planks": "Quash Planks",
       "item.quashconomiestwo.penguin_soldier_spawn_egg": "Penguin Soldier Spawn Egg",
+      "item.quashconomiestwo.fusion_alloy": "Fusion Alloy",
       "block.quashconomiestwo.tea_compressor": "Tea Compressor",
       "block.quashconomiestwo.quash_leaves": "Quash Leaves",
       "item.quashconomiestwo.mokey_mokey_king_spawn_egg": "Mokey Mokey King Spawn Egg",
@@ -1364,6 +1436,7 @@
       "biome.quashconomiestwo.quashiome": "Quashiome",
       "item.quashconomiestwo.essenceof_slifer": "Slifer Essence",
       "entity.quashconomiestwo.plunder_black_beard": "Plunder Black Beard",
+      "item.quashconomiestwo.condensed_fusion_alloy": "Condensed Fusion Alloy",
       "item.quashconomiestwo.fusion_armour_leggings": "Fusion Armour Leggings",
       "item.quashconomiestwo.quash_tea": "Quashtea",
       "item.quashconomiestwo.frog_the_jam_spawn_egg": "Frog The Jam Spawn Egg",
@@ -1375,6 +1448,8 @@
       "item.quashconomiestwo.quash_tea_armour_boots": "QT Boots",
       "item.quashconomiestwo.quash_tea_armour_helmet": "QT Helmet",
       "entity.quashconomiestwo.flower_wolf": "Flower Wolf",
+      "item.quashconomiestwo.tea_singularity": "Tea Singularity",
+      "item.quashconomiestwo.singularity_tea_blade": "Singularity Tea Blade",
       "entity.quashconomiestwo.mokey_mokey": "Mokey Mokey",
       "block.quashconomiestwo.quashcent_block": "Quashcent Block",
       "item.quashconomiestwo.quash_god_armour_helmet": "Quash God Armour Helmet",
