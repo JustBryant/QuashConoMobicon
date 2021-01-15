@@ -1,0 +1,13 @@
+{
+  "parent": "quashconomiestwo:custom/magical_mallet",
+  "textures": {
+    "0": "quashconomiestwo:blocks/handle",
+    "1": "quashconomiestwo:blocks/a",
+    "2": "quashconomiestwo:blocks/b",
+    "3": "quashconomiestwo:blocks/c",
+    "4": "quashconomiestwo:blocks/d",
+    "5": "quashconomiestwo:blocks/a",
+    "missing": "quashconomiestwo:blocks/a",
+    "particle": "quashconomiestwo:items/pickaxe"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "quashconomiestwo:quash_tea_armour_leggings"
+    },
+    "1": {
+      "item": "quashconomiestwo:tea_singularity"
+    },
+    "2": {
+      "item": "quashconomiestwo:quash_god_armour_leggings"
+    },
+    "3": {
+      "item": "quashconomiestwo:essenceof_obelisk"
+    },
+    "5": {
+      "item": "quashconomiestwo:quash_god_armour_leggings"
+    },
+    "6": {
+      "item": "quashconomiestwo:essenceof_slifer"
+    },
+    "8": {
+      "item": "quashconomiestwo:essenceof_ra"
+    }
+  },
+  "result": {
+    "item": "quashconomiestwo:fusion_armour_leggings",
+    "count": 1
+  }
+}

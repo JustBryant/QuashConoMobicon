@@ -1,0 +1,29 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "quashconomiestwo:essenceof_slifer"
+    },
+    "1": {
+      "item": "quashconomiestwo:tea_singularity"
+    },
+    "2": {
+      "item": "quashconomiestwo:essenceof_ra"
+    },
+    "3": {
+      "item": "quashconomiestwo:essenceof_obelisk"
+    },
+    "5": {
+      "item": "quashconomiestwo:quash_god_armour_helmet"
+    }
+  },
+  "result": {
+    "item": "quashconomiestwo:fusion_armour_helmet",
+    "count": 1
+  }
+}

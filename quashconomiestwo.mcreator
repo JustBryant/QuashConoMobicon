@@ -1373,6 +1373,113 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "tea_singularity"
+    },
+    {
+      "name": "SingularitySwordCraft",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "singularity_sword_craft"
+    },
+    {
+      "name": "FusionArmourHelmRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_armour_helm_recipe"
+    },
+    {
+      "name": "FusionArmourChestplateRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_armour_chestplate_recipe"
+    },
+    {
+      "name": "FusionArmourLeggingRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_armour_legging_recipe"
+    },
+    {
+      "name": "FusionArmourBootsRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_armour_boots_recipe"
+    },
+    {
+      "name": "FusionArmourBootsTwo",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_armour_boots_two"
+    },
+    {
+      "name": "FusionArmourHelmTwo",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_armour_helm_two"
+    },
+    {
+      "name": "GravityAxeGrarl",
+      "type": "tool",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gravity_axe_grarl"
+    },
+    {
+      "name": "MagicalMallet",
+      "type": "tool",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magical_mallet"
+    },
+    {
+      "name": "MilleniumShieldRightClickedInAir",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "millenium_shield_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MilleniumShield",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "millenium_shield"
     }
   ],
   "variable_elements": [],
@@ -1395,6 +1502,7 @@
       "block.quashconomiestwo.quashcent_ore": "Quashcent Ore",
       "item.quashconomiestwo.sonic_duck_spawn_egg": "Sonic Duck Spawn Egg",
       "item.quashconomiestwo.enhanced_quash_blade": "Enhanced Quash Blade",
+      "item.quashconomiestwo.millenium_shield": "Millenium Shield",
       "item.quashconomiestwo.fusion_armour_chestplate": "Fusion Armour Body",
       "item.quashconomiestwo.fusion_armour_helmet": "Fusion Armour Helmet",
       "item.quashconomiestwo.mokey_mokey_spawn_egg": "Mokey Mokey Spawn Egg",
@@ -1422,6 +1530,7 @@
       "block.quashconomiestwo.quash_grass": "Quash Grass",
       "block.quashconomiestwo.quash_planks": "Quash Planks",
       "item.quashconomiestwo.penguin_soldier_spawn_egg": "Penguin Soldier Spawn Egg",
+      "item.quashconomiestwo.magical_mallet": "Magical Mallet",
       "item.quashconomiestwo.fusion_alloy": "Fusion Alloy",
       "block.quashconomiestwo.tea_compressor": "Tea Compressor",
       "block.quashconomiestwo.quash_leaves": "Quash Leaves",
@@ -1453,6 +1562,7 @@
       "entity.quashconomiestwo.mokey_mokey": "Mokey Mokey",
       "block.quashconomiestwo.quashcent_block": "Quashcent Block",
       "item.quashconomiestwo.quash_god_armour_helmet": "Quash God Armour Helmet",
+      "item.quashconomiestwo.gravity_axe_grarl": "Gravity Axe Grarl",
       "item.quashconomiestwo.goopcent": "Goopcent",
       "item.quashconomiestwo.quash_tea_armour_leggings": "QT Leggings"
     }

@@ -12,11 +12,11 @@ import net.mcreator.quashconomiestwo.itemgroup.QuashconomiesItemGroup;
 import net.mcreator.quashconomiestwo.QuashconomiestwoModElements;
 
 @QuashconomiestwoModElements.ModElement.Tag
-public class RevealingLightSwordItem extends QuashconomiestwoModElements.ModElement {
-	@ObjectHolder("quashconomiestwo:revealing_light_sword")
+public class MagicalMalletItem extends QuashconomiestwoModElements.ModElement {
+	@ObjectHolder("quashconomiestwo:magical_mallet")
 	public static final Item block = null;
-	public RevealingLightSwordItem(QuashconomiestwoModElements instance) {
-		super(instance, 110);
+	public MagicalMalletItem(QuashconomiestwoModElements instance) {
+		super(instance, 140);
 	}
 
 	@Override
@@ -27,11 +27,11 @@ public class RevealingLightSwordItem extends QuashconomiestwoModElements.ModElem
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 12f;
 			}
 
 			public float getAttackDamage() {
-				return 16f;
+				return 27f;
 			}
 
 			public int getHarvestLevel() {
@@ -45,7 +45,7 @@ public class RevealingLightSwordItem extends QuashconomiestwoModElements.ModElem
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2.8f, new Item.Properties().group(QuashconomiesItemGroup.tab)) {
-		}.setRegistryName("revealing_light_sword"));
+		}, 3, -3.4f, new Item.Properties().group(QuashconomiesItemGroup.tab)) {
+		}.setRegistryName("magical_mallet"));
 	}
 }

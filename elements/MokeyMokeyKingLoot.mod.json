@@ -30,7 +30,7 @@
             "item": {
               "value": "CUSTOM:TeaBlock"
             },
-            "weight": 1,
+            "weight": 2,
             "minCount": 0,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -78,6 +78,20 @@
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": true,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:RevealingLightSword"
+            },
+            "weight": 1,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
           }

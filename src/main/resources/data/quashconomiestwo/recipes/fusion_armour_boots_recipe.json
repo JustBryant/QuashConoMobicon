@@ -1,0 +1,26 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "quashconomiestwo:essenceof_ra"
+    },
+    "2": {
+      "item": "quashconomiestwo:tea_singularity"
+    },
+    "3": {
+      "item": "quashconomiestwo:essenceof_slifer"
+    },
+    "5": {
+      "item": "quashconomiestwo:essenceof_obelisk"
+    }
+  },
+  "result": {
+    "item": "quashconomiestwo:fusion_armour_boots",
+    "count": 1
+  }
+}

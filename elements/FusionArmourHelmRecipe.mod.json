@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EssenceofSlifer"
+      },
+      {
+        "value": "CUSTOM:TeaSingularity"
+      },
+      {
+        "value": "CUSTOM:EssenceofRa"
+      },
+      {
+        "value": "CUSTOM:EssenceofObelisk"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:QuashGodArmour.helmet"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FusionArmour.helmet"
+    },
+    "name": "fusion_armour_helm_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "brown",
+        "1": "silver",
+        "2": "metalic_brown",
+        "3": "something"
+      },
+      "name": "default"
+    }
+  }
+}
