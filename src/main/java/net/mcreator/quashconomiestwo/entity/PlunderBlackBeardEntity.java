@@ -11,6 +11,7 @@ import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.common.DungeonHooks;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
@@ -70,7 +71,24 @@ public class PlunderBlackBeardEntity extends QuashconomiestwoModElements.ModElem
 
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 20, 4, 4));
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("quashconomiestwo:quashiome").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("beach").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("frozen_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("frozen_river").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("swamp").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("stone_shore").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("snowy_beach").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
+		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 15, 1, 4));
 	}
 
 	@Override
@@ -78,6 +96,7 @@ public class PlunderBlackBeardEntity extends QuashconomiestwoModElements.ModElem
 		DeferredWorkQueue.runLater(this::setupAttributes);
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
 				MonsterEntity::canMonsterSpawn);
+		DungeonHooks.addDungeonMob(entity, 180);
 	}
 	private static class ModelRegisterHandler {
 		@SubscribeEvent
@@ -95,10 +114,11 @@ public class PlunderBlackBeardEntity extends QuashconomiestwoModElements.ModElem
 	}
 	private void setupAttributes() {
 		AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-		ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
-		ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 10);
+		ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 1);
+		ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 50);
 		ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
-		ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
+		ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 6);
+		ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 1);
 		GlobalEntityTypeAttributes.put(entity, ammma.create());
 	}
 	public static class CustomEntity extends MonsterEntity {
@@ -120,7 +140,7 @@ public class PlunderBlackBeardEntity extends QuashconomiestwoModElements.ModElem
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false));
+			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1, false));
 			this.goalSelector.addGoal(2, new RandomWalkingGoal(this, 1));
 			this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
 			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
@@ -140,6 +160,13 @@ public class PlunderBlackBeardEntity extends QuashconomiestwoModElements.ModElem
 		@Override
 		public net.minecraft.util.SoundEvent getDeathSound() {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
+		}
+
+		@Override
+		public boolean attackEntityFrom(DamageSource source, float amount) {
+			if (source == DamageSource.DROWN)
+				return false;
+			return super.attackEntityFrom(source, amount);
 		}
 	}
 

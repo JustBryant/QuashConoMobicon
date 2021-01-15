@@ -1057,6 +1057,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "frog_the_jam"
+    },
+    {
+      "name": "BlackBeardLootTable",
+      "type": "loottable",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_beard_loot_table"
     }
   ],
   "variable_elements": [],

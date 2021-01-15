@@ -22,6 +22,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.monster.MonsterEntity;
@@ -43,6 +44,7 @@ import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 
+import net.mcreator.quashconomiestwo.item.QuashCentItem;
 import net.mcreator.quashconomiestwo.QuashconomiestwoModElements;
 
 import com.mojang.blaze3d.vertex.IVertexBuilder;
@@ -69,7 +71,12 @@ public class MokeyMokeyEntity extends QuashconomiestwoModElements.ModElement {
 
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 20, 4, 4));
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("quashconomiestwo:quashiome").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
+		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 20, 3, 4));
 	}
 
 	@Override
@@ -94,10 +101,10 @@ public class MokeyMokeyEntity extends QuashconomiestwoModElements.ModElement {
 	}
 	private void setupAttributes() {
 		AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-		ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
+		ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.5);
 		ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 10);
 		ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
-		ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
+		ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 2);
 		GlobalEntityTypeAttributes.put(entity, ammma.create());
 	}
 	public static class CustomEntity extends MonsterEntity {
@@ -131,6 +138,11 @@ public class MokeyMokeyEntity extends QuashconomiestwoModElements.ModElement {
 			return CreatureAttribute.UNDEFINED;
 		}
 
+		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
+			super.dropSpecialItems(source, looting, recentlyHitIn);
+			this.entityDropItem(new ItemStack(QuashCentItem.block, (int) (1)));
+		}
+
 		@Override
 		public net.minecraft.util.SoundEvent getHurtSound(DamageSource ds) {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.hurt"));
@@ -139,6 +151,13 @@ public class MokeyMokeyEntity extends QuashconomiestwoModElements.ModElement {
 		@Override
 		public net.minecraft.util.SoundEvent getDeathSound() {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
+		}
+
+		@Override
+		public boolean attackEntityFrom(DamageSource source, float amount) {
+			if (source == DamageSource.FALL)
+				return false;
+			return super.attackEntityFrom(source, amount);
 		}
 	}
 
