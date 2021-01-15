@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:QuashAxe"
+      },
+      {
+        "value": "CUSTOM:QuashPick"
+      },
+      {
+        "value": "CUSTOM:QuashShovel"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:QuashStick"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:QuashStick"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:QuashPaxel"
+    },
+    "name": "quash_paxel_craft",
+    "namespace": "mod"
+  }
+}

@@ -1183,6 +1183,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "quash_hoe_craft_two"
+    },
+    {
+      "name": "QuashPaxel",
+      "type": "tool",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_paxel"
+    },
+    {
+      "name": "QuashPaxelCraft",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_paxel_craft"
     }
   ],
   "variable_elements": [],
@@ -1191,8 +1209,8 @@
     "en_us": {
       "item.quashconomiestwo.the_good_goop": "The Good Goop",
       "item.quashconomiestwo.quash_god_armour_boots": "Quash God Armour Boots",
-      "item.quashconomiestwo.essenceof_ra": "Ra Essence",
       "block.quashconomiestwo.quashtea_ore": "Quashtea Ore",
+      "item.quashconomiestwo.essenceof_ra": "Ra Essence",
       "block.quashconomiestwo.quash_log": "Quash Log",
       "entity.quashconomiestwo.penguin_soldier": "Penguin Soldier",
       "item.quashconomiestwo.quash_god": "Strength of the Quash",
@@ -1213,6 +1231,7 @@
       "item.quashconomiestwo.the_quash_god": "The Quash God",
       "item.quashconomiestwo.flower_wolf_spawn_egg": "Flower Wolf Spawn Egg",
       "block.quashconomiestwo.quashling_block": "Quashling Block",
+      "item.quashconomiestwo.quash_paxel": "Quash Paxel",
       "item.quashconomiestwo.quash_hoe": "Quash Hoe",
       "item.quashconomiestwo.essenceof_obelisk": "Obelisk Essence",
       "entity.quashconomiestwo.sonic_duck": "Sonic Duck",
