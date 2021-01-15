@@ -5,58 +5,44 @@
     "type": "Entity",
     "pools": [
       {
-        "minrolls": 1,
-        "maxrolls": 2,
+        "minrolls": 0,
+        "maxrolls": 1,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
-        "hasbonusrolls": true,
+        "hasbonusrolls": false,
         "entries": [
           {
             "type": "item",
             "item": {
               "value": "CUSTOM:Quashbuck"
             },
-            "weight": 2,
-            "minCount": 1,
-            "maxCount": 3,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": true,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:QuashCent"
-            },
-            "weight": 3,
-            "minCount": 1,
-            "maxCount": 6,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": true,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "Items.MAP"
-            },
             "weight": 1,
-            "minCount": 1,
+            "minCount": 0,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
+            "affectedByFortune": true,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GLOWSTONE_DUST"
+            },
+            "weight": 5,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": true,
             "explosionDecay": false,
             "silkTouchMode": 0
           }
         ]
       }
     ],
-    "name": "black_beard_loot_table",
+    "name": "entities/mokey_mokey",
     "namespace": "mod"
   }
 }
