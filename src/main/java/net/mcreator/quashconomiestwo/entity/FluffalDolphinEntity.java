@@ -11,6 +11,7 @@ import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.common.ForgeMod;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
@@ -18,13 +19,17 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.gen.Heightmap;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.World;
+import net.minecraft.world.IWorldReader;
 import net.minecraft.util.math.vector.Vector3d;
+import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Hand;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.ActionResultType;
+import net.minecraft.tags.FluidTags;
 import net.minecraft.server.Main;
+import net.minecraft.pathfinding.SwimmerPathNavigator;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemStack;
@@ -35,6 +40,8 @@ import net.minecraft.entity.passive.SquidEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.RandomSwimmingGoal;
+import net.minecraft.entity.ai.goal.HurtByTargetGoal;
+import net.minecraft.entity.ai.controller.MovementController;
 import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
 import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
@@ -76,7 +83,16 @@ public class FluffalDolphinEntity extends QuashconomiestwoModElements.ModElement
 
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(EntityClassification.WATER_CREATURE).add(new MobSpawnInfo.Spawners(entity, 20, 4, 4));
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("river").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("deep_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
+		event.getSpawns().getSpawner(EntityClassification.WATER_CREATURE).add(new MobSpawnInfo.Spawners(entity, 8, 2, 4));
 	}
 
 	@Override
@@ -101,10 +117,11 @@ public class FluffalDolphinEntity extends QuashconomiestwoModElements.ModElement
 	}
 	private void setupAttributes() {
 		AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-		ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.2);
-		ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 10);
+		ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 1);
+		ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 40);
 		ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
-		ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
+		ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 4);
+		ammma = ammma.createMutableAttribute(ForgeMod.SWIM_SPEED.get(), 1);
 		GlobalEntityTypeAttributes.put(entity, ammma.create());
 	}
 	public static class CustomEntity extends CreatureEntity {
@@ -114,8 +131,30 @@ public class FluffalDolphinEntity extends QuashconomiestwoModElements.ModElement
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 0;
+			experienceValue = 25;
 			setNoAI(false);
+			this.moveController = new MovementController(this) {
+				@Override
+				public void tick() {
+					if (CustomEntity.this.areEyesInFluid(FluidTags.WATER))
+						CustomEntity.this.setMotion(CustomEntity.this.getMotion().add(0, 0.005, 0));
+					if (this.action == MovementController.Action.MOVE_TO && !CustomEntity.this.getNavigator().noPath()) {
+						double dx = this.posX - CustomEntity.this.getPosX();
+						double dy = this.posY - CustomEntity.this.getPosY();
+						double dz = this.posZ - CustomEntity.this.getPosZ();
+						dy = dy / (double) MathHelper.sqrt(dx * dx + dy * dy + dz * dz);
+						CustomEntity.this.rotationYaw = this.limitAngle(CustomEntity.this.rotationYaw,
+								(float) (MathHelper.atan2(dz, dx) * (double) (180 / (float) Math.PI)) - 90, 90);
+						CustomEntity.this.renderYawOffset = CustomEntity.this.rotationYaw;
+						CustomEntity.this.setAIMoveSpeed(MathHelper.lerp(0.125f, CustomEntity.this.getAIMoveSpeed(),
+								(float) (this.speed * CustomEntity.this.getAttributeValue(Attributes.MOVEMENT_SPEED))));
+						CustomEntity.this.setMotion(CustomEntity.this.getMotion().add(0, CustomEntity.this.getAIMoveSpeed() * dy * 0.1, 0));
+					} else {
+						CustomEntity.this.setAIMoveSpeed(0);
+					}
+				}
+			};
+			this.navigator = new SwimmerPathNavigator(this, this.world);
 		}
 
 		@Override
@@ -129,6 +168,7 @@ public class FluffalDolphinEntity extends QuashconomiestwoModElements.ModElement
 			this.goalSelector.addGoal(1, new RandomWalkingGoal(this, 0.8));
 			this.goalSelector.addGoal(2, new SwimGoal(this));
 			this.goalSelector.addGoal(3, new RandomSwimmingGoal(this, 1, 40));
+			this.targetSelector.addGoal(4, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
 		}
 
 		@Override
@@ -164,6 +204,21 @@ public class FluffalDolphinEntity extends QuashconomiestwoModElements.ModElement
 			double z = this.getPosZ();
 			Entity entity = this;
 			return retval;
+		}
+
+		@Override
+		public boolean canBreatheUnderwater() {
+			return true;
+		}
+
+		@Override
+		public boolean isNotColliding(IWorldReader worldreader) {
+			return worldreader.checkNoEntityCollision(this, VoxelShapes.create(this.getBoundingBox()));
+		}
+
+		@Override
+		public boolean isPushedByWater() {
+			return false;
 		}
 
 		@Override

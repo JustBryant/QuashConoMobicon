@@ -128,7 +128,7 @@ public class PlunderBlackBeardEntity extends QuashconomiestwoModElements.ModElem
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 0;
+			experienceValue = 20;
 			setNoAI(false);
 		}
 

@@ -114,7 +114,7 @@ public class MokeyMokeyEntity extends QuashconomiestwoModElements.ModElement {
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 0;
+			experienceValue = 2;
 			setNoAI(false);
 		}
 
