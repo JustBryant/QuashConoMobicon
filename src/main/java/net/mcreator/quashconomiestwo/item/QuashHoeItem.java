@@ -1,12 +1,23 @@
 
 package net.mcreator.quashconomiestwo.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.HoeItem;
+
+import net.mcreator.quashconomiestwo.itemgroup.QuashconomiesItemGroup;
+import net.mcreator.quashconomiestwo.QuashconomiestwoModElements;
+
 @QuashconomiestwoModElements.ModElement.Tag
 public class QuashHoeItem extends QuashconomiestwoModElements.ModElement {
-
 	@ObjectHolder("quashconomiestwo:quash_hoe")
 	public static final Item block = null;
-
 	public QuashHoeItem(QuashconomiestwoModElements instance) {
 		super(instance, 113);
 	}
@@ -38,14 +49,11 @@ public class QuashHoeItem extends QuashconomiestwoModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(QuashTeaItem.block, (int) (1)));
 			}
 		}, 0, -2.6f, new Item.Properties().group(QuashconomiesItemGroup.tab)) {
-
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasEffect(ItemStack itemstack) {
 				return true;
 			}
-
 		}.setRegistryName("quash_hoe"));
 	}
-
 }
