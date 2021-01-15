@@ -1093,6 +1093,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "flower_wolf_loot"
+    },
+    {
+      "name": "SonicDuckLoot",
+      "type": "loottable",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sonic_duck_loot"
+    },
+    {
+      "name": "FlyingPenguinLoot",
+      "type": "loottable",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flying_penguin_loot"
     }
   ],
   "variable_elements": [],

@@ -255,11 +255,10 @@ public class SonicDuckEntity extends QuashconomiestwoModElements.ModElement {
 		}
 
 		public void setRotationAngles(Entity e, float f, float f1, float f2, float f3, float f4) {
-			this.head.rotateAngleY = f3 / (180F / (float) Math.PI);
-			this.head.rotateAngleX = f4 / (180F / (float) Math.PI);
 			this.left_leg.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
 			this.right_leg.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
-			this.neck.rotateAngleZ = f4 / (180F / (float) Math.PI);
+			this.neck.rotateAngleY = f3 / (180F / (float) Math.PI);
+			this.neck.rotateAngleX = f4 / (180F / (float) Math.PI);
 		}
 	}
 }
