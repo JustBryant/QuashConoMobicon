@@ -25,7 +25,9 @@
     "My": 1.0,
     "Mz": 1.0,
     "name": "Tea Compressor",
-    "specialInfo": [],
+    "specialInfo": [
+      "Combine Quash Tea with a Fusion Block to make a Tea Singularity"
+    ],
     "hardness": 30.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -74,9 +76,9 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "hasInventory": true,
-    "guiBoundTo": "TeaSingularityCompressor",
-    "openGUIOnRightClick": true,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
     "inventorySize": 5,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,

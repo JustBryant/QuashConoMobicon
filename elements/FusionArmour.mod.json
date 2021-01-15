@@ -1,0 +1,66 @@
+{
+  "_fv": 15,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "fu_helmet",
+    "enableBody": true,
+    "textureBody": "fu_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "fu_leggings",
+    "enableBoots": true,
+    "textureBoots": "fu_boots",
+    "onHelmetTick": {
+      "name": "FusionArmourHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "FusionArmourBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "FusionArmourLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "FusionArmourBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Quashconomies"
+    },
+    "armorTextureFile": "fu_",
+    "helmetName": "Fusion Armour Helmet",
+    "bodyName": "Fusion Armour Body",
+    "leggingsName": "Fusion Armour Leggings",
+    "bootsName": "Fusion Armour Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 156,
+    "damageValueHelmet": 18,
+    "damageValueBody": 30,
+    "damageValueLeggings": 30,
+    "damageValueBoots": 18,
+    "enchantability": 90,
+    "toughness": 10.0,
+    "knockbackResistance": 1.0,
+    "equipSound": {
+      "value": "entity.enderdragon.growl"
+    },
+    "repairItems": []
+  }
+}
