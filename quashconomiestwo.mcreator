@@ -1220,13 +1220,13 @@
       }
     },
     {
-      "name": "FusionArmourBodyTickEvent",
+      "name": "FusionArmourBootsTickEvent",
       "type": "procedure",
-      "sortid": 121,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "fusion_armour_body_tick_event",
+      "registry_name": "fusion_armour_boots_tick_event",
       "metadata": {
         "dependencies": [
           {
@@ -1254,23 +1254,6 @@
       }
     },
     {
-      "name": "FusionArmourBootsTickEvent",
-      "type": "procedure",
-      "sortid": 123,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fusion_armour_boots_tick_event",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "FusionArmour",
       "type": "armor",
       "sortid": 120,
@@ -1284,6 +1267,32 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "FusionArmourBodyTickEvent",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_armour_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MokeyMokeyKing",
+      "type": "mob",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mokey_mokey_king"
     }
   ],
   "variable_elements": [],
@@ -1292,8 +1301,8 @@
     "en_us": {
       "item.quashconomiestwo.the_good_goop": "The Good Goop",
       "item.quashconomiestwo.quash_god_armour_boots": "Quash God Armour Boots",
-      "block.quashconomiestwo.quashtea_ore": "Quashtea Ore",
       "item.quashconomiestwo.essenceof_ra": "Ra Essence",
+      "block.quashconomiestwo.quashtea_ore": "Quashtea Ore",
       "block.quashconomiestwo.quash_log": "Quash Log",
       "entity.quashconomiestwo.penguin_soldier": "Penguin Soldier",
       "item.quashconomiestwo.quash_god": "Strength of the Quash",
