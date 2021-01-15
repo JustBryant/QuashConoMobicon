@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Flower Wolf",
     "mobLabel": "",
-    "mobModelName": "ModelFlower_wolf",
+    "mobModelName": "Modelflower_wolf",
     "mobModelTexture": "flower_wolf.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
