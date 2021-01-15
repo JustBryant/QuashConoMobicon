@@ -1111,6 +1111,87 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "revealing_light_sword"
+    },
+    {
+      "name": "QuashGrass",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_grass"
+    },
+    {
+      "name": "QuashDirttoGrass",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_dirtto_grass"
+    },
+    {
+      "name": "EnhancedQuashBladeCraft",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enhanced_quash_blade_craft"
+    },
+    {
+      "name": "EnhancedQuashBlade",
+      "type": "tool",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enhanced_quash_blade"
+    },
+    {
+      "name": "QuashHoeCraft",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_hoe_craft"
+    },
+    {
+      "name": "QuashDirt",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_dirt"
+    },
+    {
+      "name": "FlowerWolfLoot",
+      "type": "loottable",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_wolf_loot"
+    },
+    {
+      "name": "QuashHoe",
+      "type": "tool",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_hoe"
+    },
+    {
+      "name": "QuashHoeCraftTwo",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_hoe_craft_two"
     }
   ],
   "variable_elements": [],
@@ -1156,7 +1237,6 @@
       "block.quashconomiestwo.tea_compressor": "Tea Compressor",
       "block.quashconomiestwo.quash_leaves": "Quash Leaves",
       "item.quashconomiestwo.quashbuck": "Quashbuck",
-      "item.quashconomiestwo.revealing_light_sword": "Revealing Light Sword",
       "item.quashconomiestwo.goopling": "Goopling",
       "item.quashconomiestwo.quash_res": "Resistance of the Quash",
       "block.quashconomiestwo.quashbuck_block": "Quashbuck Block",

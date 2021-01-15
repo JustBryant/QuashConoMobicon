@@ -1,0 +1,27 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "quashconomiestwo:quash_tea"
+    },
+    "1": {
+      "item": "quashconomiestwo:quash_tea"
+    },
+    "3": {
+      "item": "quashconomiestwo:quash_stick"
+    },
+    "5": {
+      "item": "quashconomiestwo:quash_stick"
+    }
+  },
+  "result": {
+    "item": "quashconomiestwo:unknown_element",
+    "count": 1
+  }
+}

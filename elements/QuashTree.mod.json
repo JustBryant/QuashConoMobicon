@@ -17,7 +17,7 @@
     ],
     "restrictionBlocks": [
       {
-        "value": "Blocks.GRASS"
+        "value": "CUSTOM:QuashGrass"
       }
     ],
     "restrictionBiomes": [

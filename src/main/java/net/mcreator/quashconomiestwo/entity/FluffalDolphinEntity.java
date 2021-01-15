@@ -92,7 +92,7 @@ public class FluffalDolphinEntity extends QuashconomiestwoModElements.ModElement
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
-		event.getSpawns().getSpawner(EntityClassification.WATER_CREATURE).add(new MobSpawnInfo.Spawners(entity, 8, 2, 4));
+		event.getSpawns().getSpawner(EntityClassification.WATER_CREATURE).add(new MobSpawnInfo.Spawners(entity, 6, 2, 4));
 	}
 
 	@Override

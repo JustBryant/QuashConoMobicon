@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "quashconomiestwo:items/quash_shovel"
+    "layer0": "quashconomiestwo:items/quash_shovel_real"
   }
 }

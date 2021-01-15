@@ -1,20 +1,12 @@
 
 package net.mcreator.quashconomiestwo.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-
-import net.mcreator.quashconomiestwo.QuashconomiestwoModElements;
-
 @QuashconomiestwoModElements.ModElement.Tag
 public class RevealingLightSwordItem extends QuashconomiestwoModElements.ModElement {
+
 	@ObjectHolder("quashconomiestwo:revealing_light_sword")
 	public static final Item block = null;
+
 	public RevealingLightSwordItem(QuashconomiestwoModElements instance) {
 		super(instance, 110);
 	}
@@ -46,6 +38,8 @@ public class RevealingLightSwordItem extends QuashconomiestwoModElements.ModElem
 				return Ingredient.EMPTY;
 			}
 		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+
 		}.setRegistryName("revealing_light_sword"));
 	}
+
 }

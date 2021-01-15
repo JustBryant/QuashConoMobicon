@@ -23,9 +23,9 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Mirror;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.quashconomiestwo.block.QuashGrassBlock;
 import net.mcreator.quashconomiestwo.QuashconomiestwoModElements;
 
 import java.util.Random;
@@ -64,7 +64,7 @@ public class QuashTreeStructure extends QuashconomiestwoModElements.ModElement {
 						j -= 1;
 						BlockState blockAt = world.getBlockState(new BlockPos(i, j, k));
 						boolean blockCriteria = false;
-						if (blockAt.getBlock() == Blocks.GRASS_BLOCK.getDefaultState().getBlock())
+						if (blockAt.getBlock() == QuashGrassBlock.block.getDefaultState().getBlock())
 							blockCriteria = true;
 						if (!blockCriteria)
 							continue;
