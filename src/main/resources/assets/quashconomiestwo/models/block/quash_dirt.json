@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "quashconomiestwo:blocks/quashdirt",
+    "up": "quashconomiestwo:blocks/quashdirt",
+    "north": "quashconomiestwo:blocks/quashdirt",
+    "east": "quashconomiestwo:blocks/quashdirt",
+    "south": "quashconomiestwo:blocks/quashdirt",
+    "west": "quashconomiestwo:blocks/quashdirt",
+    "particle": "quashconomiestwo:blocks/quashdirt"
+  }
+}

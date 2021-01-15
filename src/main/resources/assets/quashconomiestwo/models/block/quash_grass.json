@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "quashconomiestwo:blocks/quashdirt",
+    "up": "quashconomiestwo:blocks/quashgrass_top",
+    "north": "quashconomiestwo:blocks/quashgrass_side",
+    "east": "quashconomiestwo:blocks/quashgrass_side",
+    "south": "quashconomiestwo:blocks/quashgrass_side",
+    "west": "quashconomiestwo:blocks/quashgrass_side",
+    "particle": "quashconomiestwo:blocks/quashdirt"
+  }
+}

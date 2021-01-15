@@ -1,0 +1,13 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quashconomiestwo:quash_dirt"
+    }
+  ],
+  "result": {
+    "item": "quashconomiestwo:quash_grass",
+    "count": 1
+  }
+}
