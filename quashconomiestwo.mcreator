@@ -1086,15 +1086,6 @@
       "registry_name": "plunder_black_beard_loot"
     },
     {
-      "name": "FlowerWolfLoot",
-      "type": "loottable",
-      "sortid": 108,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "flower_wolf_loot"
-    },
-    {
       "name": "SonicDuckLoot",
       "type": "loottable",
       "sortid": 108,
@@ -1113,13 +1104,13 @@
       "registry_name": "flying_penguin_loot"
     },
     {
-      "name": "QuashDirt",
-      "type": "block",
+      "name": "RevealingLightSword",
+      "type": "tool",
       "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "quash_dirt"
+      "registry_name": "revealing_light_sword"
     },
     {
       "name": "QuashGrass",
@@ -1140,13 +1131,13 @@
       "registry_name": "quash_dirtto_grass"
     },
     {
-      "name": "QuashHoe",
-      "type": "tool",
-      "sortid": 113,
+      "name": "EnhancedQuashBladeCraft",
+      "type": "recipe",
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "quash_hoe"
+      "registry_name": "enhanced_quash_blade_craft"
     },
     {
       "name": "EnhancedQuashBlade",
@@ -1158,15 +1149,6 @@
       "registry_name": "enhanced_quash_blade"
     },
     {
-      "name": "EnhancedQuashBladeCraft",
-      "type": "recipe",
-      "sortid": 115,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "enhanced_quash_blade_craft"
-    },
-    {
       "name": "QuashHoeCraft",
       "type": "recipe",
       "sortid": 116,
@@ -1174,6 +1156,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "quash_hoe_craft"
+    },
+    {
+      "name": "QuashDirt",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_dirt"
+    },
+    {
+      "name": "FlowerWolfLoot",
+      "type": "loottable",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_wolf_loot"
+    },
+    {
+      "name": "QuashHoe",
+      "type": "tool",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_hoe"
     },
     {
       "name": "QuashHoeCraftTwo",
@@ -1236,7 +1245,7 @@
       "item.quashconomiestwo.essenceof_obelisk": "Obelisk Essence",
       "entity.quashconomiestwo.sonic_duck": "Sonic Duck",
       "entity.quashconomiestwo.flying_penguin": "Flying Penguin",
-      "item.quashconomiestwo.qt_blade": "Quash Blade",
+      "item.quashconomiestwo.qt_blade": "QT Blade",
       "itemGroup.tabquashconomies": "Quashconomies",
       "item.quashconomiestwo.quash_tea_armour_chestplate": "QT Body",
       "block.quashconomiestwo.quashling_ore": "Quashling Ore",
@@ -1250,6 +1259,7 @@
       "block.quashconomiestwo.tea_compressor": "Tea Compressor",
       "block.quashconomiestwo.quash_leaves": "Quash Leaves",
       "item.quashconomiestwo.quashbuck": "Quashbuck",
+      "item.quashconomiestwo.revealing_light_sword": "Revealing Light Sword",
       "item.quashconomiestwo.goopling": "Goopling",
       "item.quashconomiestwo.quash_res": "Resistance of the Quash",
       "block.quashconomiestwo.quash_dirt": "Quash Dirt",
