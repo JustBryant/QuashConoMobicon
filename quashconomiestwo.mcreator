@@ -1219,6 +1219,58 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mokey_mokey_king"
+    },
+    {
+      "name": "LightLaserRightClickedInAir",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_laser_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightLaser",
+      "type": "tool",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_laser"
+    },
+    {
+      "name": "LightLaserOnRightClickedInAir",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_laser_on_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightLaserOn",
+      "type": "tool",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_laser_on"
     }
   ],
   "variable_elements": [],
@@ -1241,6 +1293,7 @@
       "block.quashconomiestwo.quashcent_ore": "Quashcent Ore",
       "item.quashconomiestwo.sonic_duck_spawn_egg": "Sonic Duck Spawn Egg",
       "item.quashconomiestwo.enhanced_quash_blade": "Enhanced Quash Blade",
+      "item.quashconomiestwo.light_laser": "Light Laser",
       "item.quashconomiestwo.mokey_mokey_spawn_egg": "Mokey Mokey Spawn Egg",
       "item.quashconomiestwo.goopbuck": "Goopbuck",
       "item.quashconomiestwo.quash_god_armour_chestplate": "Quash God Armour Body",
@@ -1281,6 +1334,7 @@
       "item.quashconomiestwo.quash_tea": "Quashtea",
       "item.quashconomiestwo.frog_the_jam_spawn_egg": "Frog The Jam Spawn Egg",
       "item.quashconomiestwo.quash_axe": "Quash Axe",
+      "item.quashconomiestwo.light_laser_on": "Light Laser",
       "item.quashconomiestwo.quash_shovel": "Quash Shovel",
       "item.quashconomiestwo.quash_cent": "Quashcent",
       "item.quashconomiestwo.quash_booster": "Quash Booster",

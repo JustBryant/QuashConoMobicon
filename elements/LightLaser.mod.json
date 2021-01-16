@@ -1,0 +1,29 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "blanktexture",
+    "customModelName": "light_laserwithoutblade:default",
+    "name": "Light Laser",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Quashconomies"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "LightLaserRightClickedInAir"
+    }
+  }
+}
