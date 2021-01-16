@@ -100,9 +100,19 @@ public class FluffalDolphinEntity extends QuashconomiestwoModElements.ModElement
 		boolean biomeCriteria = false;
 		if (new ResourceLocation("ocean").equals(event.getName()))
 			biomeCriteria = true;
-		if (new ResourceLocation("river").equals(event.getName()))
-			biomeCriteria = true;
 		if (new ResourceLocation("deep_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("warm_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("lukewarm_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("cold_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("deep_warm_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("deep_lukewarm_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("deep_cold_ocean").equals(event.getName()))
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
