@@ -1665,16 +1665,33 @@
           }
         ]
       }
+    },
+    {
+      "name": "FluffalDolphinOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fluffal_dolphin_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.quashconomiestwo.the_good_goop": "The Good Goop",
       "item.quashconomiestwo.quash_god_armour_boots": "Quash God Armour Boots",
-      "item.quashconomiestwo.essenceof_ra": "Ra Essence",
+      "item.quashconomiestwo.the_good_goop": "The Good Goop",
       "block.quashconomiestwo.quashtea_ore": "Quashtea Ore",
+      "item.quashconomiestwo.essenceof_ra": "Ra Essence",
       "block.quashconomiestwo.quash_log": "Quash Log",
       "entity.quashconomiestwo.penguin_soldier": "Penguin Soldier",
       "block.quashconomiestwo.quash_door": "Quash Door",

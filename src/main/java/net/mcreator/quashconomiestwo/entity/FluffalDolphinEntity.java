@@ -66,8 +66,12 @@ import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 
+import net.mcreator.quashconomiestwo.procedures.FluffalDolphinOnEntityTickUpdateProcedure;
 import net.mcreator.quashconomiestwo.block.TeaBlockBlock;
 import net.mcreator.quashconomiestwo.QuashconomiestwoModElements;
+
+import java.util.Map;
+import java.util.HashMap;
 
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.mojang.blaze3d.matrix.MatrixStack;
@@ -254,6 +258,20 @@ public class FluffalDolphinEntity extends QuashconomiestwoModElements.ModElement
 			double z = this.getPosZ();
 			Entity entity = this;
 			return retval;
+		}
+
+		@Override
+		public void baseTick() {
+			super.baseTick();
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Entity entity = this;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				FluffalDolphinOnEntityTickUpdateProcedure.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override
