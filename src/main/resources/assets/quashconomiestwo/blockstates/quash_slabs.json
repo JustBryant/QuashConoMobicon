@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "quashconomiestwo:block/quash_slabs"
+    },
+    "type=top": {
+      "model": "quashconomiestwo:block/quash_slabs_top"
+    },
+    "type=double": {
+      "model": "quashconomiestwo:block/quash_slabs_full"
+    }
+  }
+}

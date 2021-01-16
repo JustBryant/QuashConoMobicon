@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "quashconomiestwo:blocks/planks",
+    "top": "quashconomiestwo:blocks/planks",
+    "side": "quashconomiestwo:blocks/planks"
+  }
+}

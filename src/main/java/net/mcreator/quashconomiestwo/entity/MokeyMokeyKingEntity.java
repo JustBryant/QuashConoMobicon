@@ -46,7 +46,6 @@ import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
-import net.minecraft.block.material.Material;
 
 import net.mcreator.quashconomiestwo.QuashconomiestwoModElements;
 
@@ -66,7 +65,7 @@ public class MokeyMokeyKingEntity extends QuashconomiestwoModElements.ModElement
 
 	@Override
 	public void initElements() {
-		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
+		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(5f, 15f)).build("mokey_mokey_king")
 						.setRegistryName("mokey_mokey_king");
 		elements.entities.add(() -> entity);
@@ -101,15 +100,14 @@ public class MokeyMokeyKingEntity extends QuashconomiestwoModElements.ModElement
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
-		event.getSpawns().getSpawner(EntityClassification.CREATURE).add(new MobSpawnInfo.Spawners(entity, 2, 1, 1));
+		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 2, 1, 1));
 	}
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		DeferredWorkQueue.runLater(this::setupAttributes);
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos,
-						random) -> (world.getBlockState(pos.down()).getMaterial() == Material.ORGANIC && world.getLightSubtracted(pos, 0) > 8));
+				MonsterEntity::canMonsterSpawn);
 	}
 	private static class ModelRegisterHandler {
 		@SubscribeEvent

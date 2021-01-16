@@ -1,0 +1,33 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "quashconomiestwo:quash_planks"
+    },
+    "1": {
+      "item": "quashconomiestwo:quash_planks"
+    },
+    "2": {
+      "item": "quashconomiestwo:quash_planks"
+    },
+    "3": {
+      "item": "quashconomiestwo:quash_planks"
+    },
+    "4": {
+      "item": "quashconomiestwo:quash_planks"
+    },
+    "5": {
+      "item": "quashconomiestwo:quash_planks"
+    }
+  },
+  "result": {
+    "item": "quashconomiestwo:quash_door",
+    "count": 3
+  }
+}

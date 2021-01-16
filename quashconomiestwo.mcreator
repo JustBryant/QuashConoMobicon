@@ -1496,6 +1496,123 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "millenium_shield"
+    },
+    {
+      "name": "QuashTrapDoor",
+      "type": "block",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_trap_door"
+    },
+    {
+      "name": "QuashTrapDoorRecipeOne",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_trap_door_recipe_one"
+    },
+    {
+      "name": "QuashTrapDoorRecipeTwo",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_trap_door_recipe_two"
+    },
+    {
+      "name": "QuashDoor",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_door"
+    },
+    {
+      "name": "QuashDoorRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_door_recipe"
+    },
+    {
+      "name": "QuashDoorRecipeTwo",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_door_recipe_two"
+    },
+    {
+      "name": "QuashStairs",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_stairs"
+    },
+    {
+      "name": "QuashStairsRecipe",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_stairs_recipe"
+    },
+    {
+      "name": "QuashStairsRecipeTwo",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_stairs_recipe_two"
+    },
+    {
+      "name": "QuashSlabs",
+      "type": "block",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_slabs"
+    },
+    {
+      "name": "QuashSlabsRecipeOne",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_slabs_recipe_one"
+    },
+    {
+      "name": "QuashSlabsRecipeTwo",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_slabs_recipe_two"
+    },
+    {
+      "name": "QuashSlabsRecipeThree",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quash_slabs_recipe_three"
     }
   ],
   "variable_elements": [],
@@ -1508,6 +1625,7 @@
       "block.quashconomiestwo.quashtea_ore": "Quashtea Ore",
       "block.quashconomiestwo.quash_log": "Quash Log",
       "entity.quashconomiestwo.penguin_soldier": "Penguin Soldier",
+      "block.quashconomiestwo.quash_door": "Quash Door",
       "item.quashconomiestwo.quash_god": "Strength of the Quash",
       "item.quashconomiestwo.quash_pick": "Quash Pick",
       "block.quashconomiestwo.stripped_quash_log": "Stripped Quash Log",
@@ -1519,6 +1637,7 @@
       "item.quashconomiestwo.sonic_duck_spawn_egg": "Sonic Duck Spawn Egg",
       "item.quashconomiestwo.enhanced_quash_blade": "Enhanced Quash Blade",
       "item.quashconomiestwo.millenium_shield": "Millenium Shield",
+      "block.quashconomiestwo.quash_slabs": "Quash Slabs",
       "item.quashconomiestwo.fusion_armour_chestplate": "Fusion Armour Body",
       "item.quashconomiestwo.fusion_armour_helmet": "Fusion Armour Helmet",
       "item.quashconomiestwo.mokey_mokey_spawn_egg": "Mokey Mokey Spawn Egg",
@@ -1563,6 +1682,7 @@
       "entity.quashconomiestwo.plunder_black_beard": "Plunder Black Beard",
       "item.quashconomiestwo.condensed_fusion_alloy": "Condensed Fusion Alloy",
       "item.quashconomiestwo.fusion_armour_leggings": "Fusion Armour Leggings",
+      "block.quashconomiestwo.quash_stairs": "Quash Stairs",
       "item.quashconomiestwo.quash_tea": "Quashtea",
       "item.quashconomiestwo.frog_the_jam_spawn_egg": "Frog The Jam Spawn Egg",
       "item.quashconomiestwo.quash_axe": "Quash Axe",
@@ -1571,6 +1691,7 @@
       "item.quashconomiestwo.quash_booster": "Quash Booster",
       "item.quashconomiestwo.plunder_black_beard_spawn_egg": "Plunder Black Beard Spawn Egg",
       "item.quashconomiestwo.quash_tea_armour_boots": "QT Boots",
+      "block.quashconomiestwo.quash_trap_door": "Quash Trapdoor",
       "item.quashconomiestwo.quash_tea_armour_helmet": "QT Helmet",
       "entity.quashconomiestwo.flower_wolf": "Flower Wolf",
       "item.quashconomiestwo.tea_singularity": "Tea Singularity",

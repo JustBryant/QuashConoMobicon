@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "quashconomiestwo:blocks/door_bottom",
+    "top": "quashconomiestwo:blocks/door_top"
+  }
+}

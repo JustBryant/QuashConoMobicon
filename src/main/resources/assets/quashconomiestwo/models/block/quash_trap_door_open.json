@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_open",
+  "textures": {
+    "texture": "quashconomiestwo:blocks/trapdoor_front",
+    "particle": "quashconomiestwo:blocks/trapdoor_front"
+  }
+}
