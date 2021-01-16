@@ -1,0 +1,39 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "quashconomiestwo:quash_god_armour_chestplate"
+    },
+    "2": {
+      "item": "quashconomiestwo:quash_tea_armour_chestplate"
+    },
+    "3": {
+      "item": "quashconomiestwo:quash_god_armour_chestplate"
+    },
+    "4": {
+      "item": "quashconomiestwo:unknown_element"
+    },
+    "5": {
+      "item": "quashconomiestwo:quash_tea_armour_chestplate"
+    },
+    "6": {
+      "item": "quashconomiestwo:essenceof_ra"
+    },
+    "7": {
+      "item": "quashconomiestwo:essenceof_slifer"
+    },
+    "8": {
+      "item": "quashconomiestwo:essenceof_obelisk"
+    }
+  },
+  "result": {
+    "item": "quashconomiestwo:fusion_armour_chestplate",
+    "count": 1
+  }
+}

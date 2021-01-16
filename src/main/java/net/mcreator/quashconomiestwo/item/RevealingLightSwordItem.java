@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.quashconomiestwo.itemgroup.QuashconomiesItemGroup;
 import net.mcreator.quashconomiestwo.QuashconomiestwoModElements;
 
 @QuashconomiestwoModElements.ModElement.Tag
@@ -23,7 +23,7 @@ public class RevealingLightSwordItem extends QuashconomiestwoModElements.ModElem
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 1050;
 			}
 
 			public float getEfficiency() {
@@ -31,7 +31,7 @@ public class RevealingLightSwordItem extends QuashconomiestwoModElements.ModElem
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 16f;
 			}
 
 			public int getHarvestLevel() {
@@ -39,13 +39,13 @@ public class RevealingLightSwordItem extends QuashconomiestwoModElements.ModElem
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 10;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -2.8f, new Item.Properties().group(QuashconomiesItemGroup.tab)) {
 		}.setRegistryName("revealing_light_sword"));
 	}
 }

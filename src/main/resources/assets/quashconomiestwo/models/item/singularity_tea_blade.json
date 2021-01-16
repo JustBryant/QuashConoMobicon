@@ -1,0 +1,8 @@
+{
+  "parent": "quashconomiestwo:custom/t3quashbladefixed",
+  "textures": {
+    "1": "quashconomiestwo:blocks/texture_one",
+    "2": "quashconomiestwo:blocks/purple",
+    "particle": "quashconomiestwo:items/16xsword"
+  }
+}

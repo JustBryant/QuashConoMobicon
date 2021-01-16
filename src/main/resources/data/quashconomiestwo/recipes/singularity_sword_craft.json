@@ -1,0 +1,42 @@
+{
+  "group": "quashconomiestwo",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "quashconomiestwo:essenceof_slifer"
+    },
+    "1": {
+      "item": "quashconomiestwo:enhanced_quash_blade"
+    },
+    "2": {
+      "item": "quashconomiestwo:essenceof_slifer"
+    },
+    "3": {
+      "item": "quashconomiestwo:essenceof_ra"
+    },
+    "4": {
+      "item": "quashconomiestwo:unknown_element"
+    },
+    "5": {
+      "item": "quashconomiestwo:essenceof_ra"
+    },
+    "6": {
+      "item": "quashconomiestwo:essenceof_obelisk"
+    },
+    "7": {
+      "item": "quashconomiestwo:enhanced_quash_blade"
+    },
+    "8": {
+      "item": "quashconomiestwo:essenceof_obelisk"
+    }
+  },
+  "result": {
+    "item": "quashconomiestwo:unknown_element",
+    "count": 1
+  }
+}

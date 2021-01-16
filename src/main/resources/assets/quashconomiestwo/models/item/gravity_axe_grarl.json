@@ -1,0 +1,10 @@
+{
+  "parent": "quashconomiestwo:custom/gravity_axe",
+  "textures": {
+    "0": "quashconomiestwo:blocks/brown",
+    "1": "quashconomiestwo:blocks/silver",
+    "2": "quashconomiestwo:blocks/metalic_brown",
+    "3": "quashconomiestwo:blocks/something",
+    "particle": "quashconomiestwo:items/quash_axe"
+  }
+}

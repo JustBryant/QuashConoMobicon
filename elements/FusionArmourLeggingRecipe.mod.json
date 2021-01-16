@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:QuashTeaArmour.legs"
+      },
+      {
+        "value": "CUSTOM:TeaSingularity"
+      },
+      {
+        "value": "CUSTOM:QuashGodArmour.legs"
+      },
+      {
+        "value": "CUSTOM:EssenceofObelisk"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:QuashGodArmour.legs"
+      },
+      {
+        "value": "CUSTOM:EssenceofSlifer"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EssenceofRa"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FusionArmour.legs"
+    },
+    "name": "fusion_armour_legging_recipe",
+    "namespace": "mod"
+  }
+}

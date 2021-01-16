@@ -110,15 +110,6 @@
       "registry_name": "quashling_furnace"
     },
     {
-      "name": "TeaSingularityCompressor",
-      "type": "gui",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "tea_singularity_compressor"
-    },
-    {
       "name": "TeaCompressor",
       "type": "block",
       "sortid": 14,
@@ -1238,6 +1229,15 @@
       }
     },
     {
+      "name": "LightLaserOn",
+      "type": "tool",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_laser_on"
+    },
+    {
       "name": "LightLaser",
       "type": "tool",
       "sortid": 121,
@@ -1264,13 +1264,290 @@
       }
     },
     {
-      "name": "LightLaserOn",
+      "name": "SingularitySwordCraft",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "singularity_sword_craft"
+    },
+    {
+      "name": "FusionArmourBootsTickEvent",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_armour_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FusionArmourBootsTwo",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_armour_boots_two"
+    },
+    {
+      "name": "FusionArmourBootsRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_armour_boots_recipe"
+    },
+    {
+      "name": "MilleniumShield",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "millenium_shield"
+    },
+    {
+      "name": "FusionArmourHelmTwo",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_armour_helm_two"
+    },
+    {
+      "name": "FusionAlloy",
+      "type": "item",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_alloy"
+    },
+    {
+      "name": "SingularityTeaBlade",
       "type": "tool",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "singularity_tea_blade"
+    },
+    {
+      "name": "MilleniumShieldRightClickedInAir",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "millenium_shield_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FusionArmourLeggingsTickEvent",
+      "type": "procedure",
       "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "light_laser_on"
+      "registry_name": "fusion_armour_leggings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FusionArmour",
+      "type": "armor",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_armour",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "FusionArmourBodyTickEvent",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_armour_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FusionArmourHelmRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_armour_helm_recipe"
+    },
+    {
+      "name": "FusionArmourChestplateRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_armour_chestplate_recipe"
+    },
+    {
+      "name": "FusionArmourLeggingRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_armour_legging_recipe"
+    },
+    {
+      "name": "MagicalMallet",
+      "type": "tool",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magical_mallet"
+    },
+    {
+      "name": "FusionArmourHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_armour_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TeaCompressorCraft",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tea_compressor_craft"
+    },
+    {
+      "name": "GravityAxeGrarl",
+      "type": "tool",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gravity_axe_grarl"
+    },
+    {
+      "name": "CondensedFusionAlloy",
+      "type": "item",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_fusion_alloy"
+    },
+    {
+      "name": "MokeyMokeyKingLoot",
+      "type": "loottable",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mokey_mokey_king_loot"
+    },
+    {
+      "name": "TeaSingularity",
+      "type": "item",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tea_singularity"
+    },
+    {
+      "name": "SmeltFusionBlock",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelt_fusion_block"
+    },
+    {
+      "name": "TeaCompressorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tea_compressor_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1279,8 +1556,8 @@
     "en_us": {
       "item.quashconomiestwo.the_good_goop": "The Good Goop",
       "item.quashconomiestwo.quash_god_armour_boots": "Quash God Armour Boots",
-      "item.quashconomiestwo.essenceof_ra": "Ra Essence",
       "block.quashconomiestwo.quashtea_ore": "Quashtea Ore",
+      "item.quashconomiestwo.essenceof_ra": "Ra Essence",
       "block.quashconomiestwo.quash_log": "Quash Log",
       "entity.quashconomiestwo.penguin_soldier": "Penguin Soldier",
       "item.quashconomiestwo.quash_god": "Strength of the Quash",
@@ -1293,7 +1570,9 @@
       "block.quashconomiestwo.quashcent_ore": "Quashcent Ore",
       "item.quashconomiestwo.sonic_duck_spawn_egg": "Sonic Duck Spawn Egg",
       "item.quashconomiestwo.enhanced_quash_blade": "Enhanced Quash Blade",
-      "item.quashconomiestwo.light_laser": "Light Laser",
+      "item.quashconomiestwo.millenium_shield": "Millenium Shield",
+      "item.quashconomiestwo.fusion_armour_chestplate": "Fusion Armour Body",
+      "item.quashconomiestwo.fusion_armour_helmet": "Fusion Armour Helmet",
       "item.quashconomiestwo.mokey_mokey_spawn_egg": "Mokey Mokey Spawn Egg",
       "item.quashconomiestwo.goopbuck": "Goopbuck",
       "item.quashconomiestwo.quash_god_armour_chestplate": "Quash God Armour Body",
@@ -1307,6 +1586,7 @@
       "item.quashconomiestwo.essenceof_obelisk": "Obelisk Essence",
       "entity.quashconomiestwo.sonic_duck": "Sonic Duck",
       "entity.quashconomiestwo.flying_penguin": "Flying Penguin",
+      "item.quashconomiestwo.fusion_armour_boots": "Fusion Armour Boots",
       "item.quashconomiestwo.qt_blade": "QT Blade",
       "itemGroup.tabquashconomies": "Quashconomies",
       "item.quashconomiestwo.quash_tea_armour_chestplate": "QT Body",
@@ -1331,6 +1611,7 @@
       "biome.quashconomiestwo.quashiome": "Quashiome",
       "item.quashconomiestwo.essenceof_slifer": "Slifer Essence",
       "entity.quashconomiestwo.plunder_black_beard": "Plunder Black Beard",
+      "item.quashconomiestwo.fusion_armour_leggings": "Fusion Armour Leggings",
       "item.quashconomiestwo.quash_tea": "Quashtea",
       "item.quashconomiestwo.frog_the_jam_spawn_egg": "Frog The Jam Spawn Egg",
       "item.quashconomiestwo.quash_axe": "Quash Axe",
