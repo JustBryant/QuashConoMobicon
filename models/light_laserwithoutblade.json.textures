@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "light_laser_a",
+        "1": "light_laser_b",
+        "2": "light_laser_c",
+        "3": "light_laser_d"
+      },
+      "name": "default"
+    }
+  }
+}

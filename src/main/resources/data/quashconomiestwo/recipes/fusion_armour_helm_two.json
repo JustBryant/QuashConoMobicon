@@ -10,7 +10,7 @@
       "item": "quashconomiestwo:essenceof_slifer"
     },
     "1": {
-      "item": "quashconomiestwo:tea_singularity"
+      "item": "quashconomiestwo:unknown_element"
     },
     "2": {
       "item": "quashconomiestwo:essenceof_obelisk"
@@ -23,7 +23,7 @@
     }
   },
   "result": {
-    "item": "quashconomiestwo:fusion_armour_helmet",
+    "item": "quashconomiestwo:unknown_element_helmet",
     "count": 1
   }
 }
