@@ -122,10 +122,25 @@
         "value": "ocean"
       },
       {
-        "value": "river"
+        "value": "deep_ocean"
       },
       {
-        "value": "deep_ocean"
+        "value": "warm_ocean"
+      },
+      {
+        "value": "lukewarm_ocean"
+      },
+      {
+        "value": "cold_ocean"
+      },
+      {
+        "value": "deep_warm_ocean"
+      },
+      {
+        "value": "deep_lukewarm_ocean"
+      },
+      {
+        "value": "deep_cold_ocean"
       }
     ],
     "spawnInDungeons": false
