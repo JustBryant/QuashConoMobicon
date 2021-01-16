@@ -21,8 +21,10 @@ import net.minecraft.world.World;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
+import net.minecraft.particles.ParticleTypes;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.monster.MonsterEntity;
@@ -44,7 +46,10 @@ import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 
+import net.mcreator.quashconomiestwo.item.QuashCentItem;
 import net.mcreator.quashconomiestwo.QuashconomiestwoModElements;
+
+import java.util.Random;
 
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.mojang.blaze3d.matrix.MatrixStack;
@@ -61,8 +66,8 @@ public class VolcanicRatEntity extends QuashconomiestwoModElements.ModElement {
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("volcanic_rat")
-						.setRegistryName("volcanic_rat");
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.8f))
+						.build("volcanic_rat").setRegistryName("volcanic_rat");
 		elements.entities.add(() -> entity);
 		elements.items
 				.add(() -> new SpawnEggItem(entity, -1, -1, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("volcanic_rat_spawn_egg"));
@@ -70,7 +75,44 @@ public class VolcanicRatEntity extends QuashconomiestwoModElements.ModElement {
 
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 20, 4, 4));
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("plains").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("desert").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("nether_wastes").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("mushroom_fields").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("mushroom_field_shore").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("wooded_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("taiga_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("dark_forest").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("savanna").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("badlands").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("wooded_badlands_plateau").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("badlands_plateau").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("bamboo_jungle").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("bamboo_jungle_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("crimson_forest").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("warped_forest").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("basalt_deltas").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
+		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 10, 1, 4));
 	}
 
 	@Override
@@ -95,10 +137,10 @@ public class VolcanicRatEntity extends QuashconomiestwoModElements.ModElement {
 	}
 	private void setupAttributes() {
 		AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-		ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
-		ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 10);
+		ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.4);
+		ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 15);
 		ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
-		ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
+		ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 2);
 		GlobalEntityTypeAttributes.put(entity, ammma.create());
 	}
 	public static class CustomEntity extends MonsterEntity {
@@ -108,7 +150,7 @@ public class VolcanicRatEntity extends QuashconomiestwoModElements.ModElement {
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 0;
+			experienceValue = 5;
 			setNoAI(false);
 		}
 
@@ -132,6 +174,11 @@ public class VolcanicRatEntity extends QuashconomiestwoModElements.ModElement {
 			return CreatureAttribute.UNDEFINED;
 		}
 
+		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
+			super.dropSpecialItems(source, looting, recentlyHitIn);
+			this.entityDropItem(new ItemStack(QuashCentItem.block, (int) (1)));
+		}
+
 		@Override
 		public net.minecraft.util.SoundEvent getHurtSound(DamageSource ds) {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.hurt"));
@@ -140,6 +187,26 @@ public class VolcanicRatEntity extends QuashconomiestwoModElements.ModElement {
 		@Override
 		public net.minecraft.util.SoundEvent getDeathSound() {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
+		}
+
+		public void livingTick() {
+			super.livingTick();
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Random random = this.rand;
+			Entity entity = this;
+			if (true)
+				for (int l = 0; l < 4; ++l) {
+					double d0 = (x + random.nextFloat());
+					double d1 = (y + random.nextFloat());
+					double d2 = (z + random.nextFloat());
+					int i1 = random.nextInt(2) * 2 - 1;
+					double d3 = (random.nextFloat() - 0.5D) * 0.5D;
+					double d4 = (random.nextFloat() - 0.5D) * 0.5D;
+					double d5 = (random.nextFloat() - 0.5D) * 0.5D;
+					world.addParticle(ParticleTypes.FLAME, d0, d1, d2, d3, d4, d5);
+				}
 		}
 	}
 

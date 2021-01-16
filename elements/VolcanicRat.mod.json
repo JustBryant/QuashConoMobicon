@@ -46,14 +46,14 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 3,
+    "attackStrength": 2,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
-    "movementSpeed": 0.3,
+    "movementSpeed": 0.4,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 10,
-    "xpAmount": 0,
+    "health": 15,
+    "xpAmount": 5,
     "waterMob": false,
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
@@ -63,7 +63,7 @@
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "immuneToArrows": false,
     "immuneToFallDamage": false,
     "immuneToCactus": false,
@@ -72,7 +72,7 @@
     "immuneToPotions": false,
     "immuneToPlayer": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:QuashCent"
     },
     "livingSound": {
       "value": ""
@@ -86,9 +86,9 @@
     "stepSound": {
       "value": ""
     },
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "FLAME"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
@@ -106,11 +106,63 @@
     "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
+    "spawningProbability": 10,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
+    "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      },
+      {
+        "value": "desert"
+      },
+      {
+        "value": "nether"
+      },
+      {
+        "value": "mushroom_fields"
+      },
+      {
+        "value": "mushroom_field_shore"
+      },
+      {
+        "value": "forest_hills"
+      },
+      {
+        "value": "taiga_hills"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "badlands"
+      },
+      {
+        "value": "wooded_badlands_plateau"
+      },
+      {
+        "value": "badlands_plateau"
+      },
+      {
+        "value": "bamboo_jungle"
+      },
+      {
+        "value": "bamboo_jungle_hills"
+      },
+      {
+        "value": "crimson_forest"
+      },
+      {
+        "value": "warped_forest"
+      },
+      {
+        "value": "basalt_deltas"
+      }
+    ],
     "spawnInDungeons": false
   }
 }
