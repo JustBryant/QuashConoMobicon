@@ -1,12 +1,20 @@
 
 package net.mcreator.quashconomiestwo.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.quashconomiestwo.itemgroup.QuashconomiesItemGroup;
+import net.mcreator.quashconomiestwo.QuashconomiestwoModElements;
+
 @QuashconomiestwoModElements.ModElement.Tag
 public class MagicalMalletItem extends QuashconomiestwoModElements.ModElement {
-
 	@ObjectHolder("quashconomiestwo:magical_mallet")
 	public static final Item block = null;
-
 	public MagicalMalletItem(QuashconomiestwoModElements instance) {
 		super(instance, 140);
 	}
@@ -38,8 +46,6 @@ public class MagicalMalletItem extends QuashconomiestwoModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -3.4f, new Item.Properties().group(QuashconomiesItemGroup.tab)) {
-
 		}.setRegistryName("magical_mallet"));
 	}
-
 }

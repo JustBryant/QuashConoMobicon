@@ -1,12 +1,20 @@
 
 package net.mcreator.quashconomiestwo.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.quashconomiestwo.itemgroup.QuashconomiesItemGroup;
+import net.mcreator.quashconomiestwo.QuashconomiestwoModElements;
+
 @QuashconomiestwoModElements.ModElement.Tag
 public class SingularityTeaBladeItem extends QuashconomiestwoModElements.ModElement {
-
 	@ObjectHolder("quashconomiestwo:singularity_tea_blade")
 	public static final Item block = null;
-
 	public SingularityTeaBladeItem(QuashconomiestwoModElements instance) {
 		super(instance, 130);
 	}
@@ -38,8 +46,6 @@ public class SingularityTeaBladeItem extends QuashconomiestwoModElements.ModElem
 				return Ingredient.EMPTY;
 			}
 		}, 3, 1f, new Item.Properties().group(QuashconomiesItemGroup.tab)) {
-
 		}.setRegistryName("singularity_tea_blade"));
 	}
-
 }
