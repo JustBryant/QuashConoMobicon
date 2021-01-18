@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 1,
     "texture": "sword",
-    "customModelName": "sorl_sword:default",
+    "customModelName": "sorl_sword_fixed:default",
     "name": "Revealing Light Sword",
     "specialInfo": [],
     "creativeTab": {

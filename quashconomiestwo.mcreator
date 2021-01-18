@@ -1646,6 +1646,39 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sinister_serpent"
+    },
+    {
+      "name": "StripLog",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strip_log",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1688,7 +1721,7 @@
       "entity.quashconomiestwo.sonic_duck": "Sonic Duck",
       "entity.quashconomiestwo.flying_penguin": "Flying Penguin",
       "item.quashconomiestwo.fusion_armour_boots": "Fusion Armour Boots",
-      "item.quashconomiestwo.qt_blade": "QT Blade",
+      "item.quashconomiestwo.qt_blade": "Quash Blade",
       "itemGroup.tabquashconomies": "Quashconomies",
       "entity.quashconomiestwo.volcanic_rat": "Volcanic Rat",
       "item.quashconomiestwo.quash_tea_armour_chestplate": "QT Body",
@@ -1746,20 +1779,19 @@
   "workspaceSettings": {
     "modid": "quashconomiestwo",
     "modName": "Quashconomies Two",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Quashconomies mod for the Duelist Kingdoms server!",
-    "author": "KingdomsMC",
+    "author": "KingdomsMC Community",
     "websiteURL": "https://discord.gg/u2nF8VC",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "tea_singularity_compressor",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.4",
-    "credits": "Thank you to FrostHollow, Sala, and BT for models.",
+    "credits": "Thank you to FrostHollow, Sala, and BT for models.!",
     "modElementsPackage": "net.mcreator.quashconomiestwo",
     "lockBaseModFiles": false
   },

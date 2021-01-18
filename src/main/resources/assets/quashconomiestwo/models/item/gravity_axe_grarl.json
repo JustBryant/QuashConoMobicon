@@ -1,5 +1,5 @@
 {
-  "parent": "quashconomiestwo:custom/gravity_axe",
+  "parent": "quashconomiestwo:custom/gravity_v2",
   "textures": {
     "0": "quashconomiestwo:blocks/brown",
     "1": "quashconomiestwo:blocks/silver",

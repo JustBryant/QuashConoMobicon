@@ -24,6 +24,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
+import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -55,7 +56,6 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.quashconomiestwo.item.QuashbuckItem;
-import net.mcreator.quashconomiestwo.item.EssenceofSliferItem;
 import net.mcreator.quashconomiestwo.QuashconomiestwoModElements;
 
 import com.mojang.blaze3d.vertex.IVertexBuilder;
@@ -263,12 +263,12 @@ public class SinisterSerpentEntity extends QuashconomiestwoModElements.ModElemen
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public ItemStack getItem() {
-			return new ItemStack(EssenceofSliferItem.block, (int) (1));
+			return new ItemStack(Items.BLAZE_POWDER, (int) (1));
 		}
 
 		@Override
 		protected ItemStack getArrowStack() {
-			return new ItemStack(EssenceofSliferItem.block, (int) (1));
+			return new ItemStack(Items.BLAZE_POWDER, (int) (1));
 		}
 	}
 

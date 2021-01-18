@@ -1,10 +1,10 @@
 {
-  "parent": "quashconomiestwo:custom/light_laserwithoutblade",
+  "parent": "quashconomiestwo:custom/light_lasernobladeversion3",
   "textures": {
     "0": "quashconomiestwo:blocks/light_laser_a",
     "1": "quashconomiestwo:blocks/light_laser_b",
     "2": "quashconomiestwo:blocks/light_laser_c",
     "3": "quashconomiestwo:blocks/light_laser_d",
-    "particle": "quashconomiestwo:items/blanktexture"
+    "particle": "quashconomiestwo:items/obelisk_energy"
   }
 }

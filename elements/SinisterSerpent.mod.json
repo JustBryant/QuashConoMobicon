@@ -101,7 +101,7 @@
     "breedTriggerItems": [],
     "ranged": true,
     "rangedAttackItem": {
-      "value": "CUSTOM:EssenceofSlifer"
+      "value": "Items.BLAZE_POWDER"
     },
     "rangedItemType": "Default item",
     "spawnThisMob": true,

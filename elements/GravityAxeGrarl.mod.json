@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 1,
     "texture": "quash_axe",
-    "customModelName": "gravity_axe:default",
+    "customModelName": "gravity_v2:default",
     "name": "Gravity Axe Grarl",
     "specialInfo": [],
     "creativeTab": {

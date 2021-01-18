@@ -3,8 +3,8 @@
   "_type": "tool",
   "definition": {
     "renderType": 1,
-    "texture": "blanktexture",
-    "customModelName": "light_laser:default",
+    "texture": "slifer_energy",
+    "customModelName": "light_laserv3:default",
     "name": "Light Laser",
     "specialInfo": [],
     "creativeTab": {

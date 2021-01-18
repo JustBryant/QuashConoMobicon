@@ -3,7 +3,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "quashconomiestwo:unknown_element"
+      "item": "quashconomiestwo:quash_dirt"
     }
   ],
   "result": {

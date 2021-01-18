@@ -3,8 +3,8 @@
   "_type": "tool",
   "definition": {
     "renderType": 1,
-    "texture": "blanktexture",
-    "customModelName": "light_laserwithoutblade:default",
+    "texture": "obelisk_energy",
+    "customModelName": "light_lasernobladeversion3:default",
     "name": "Light Laser",
     "specialInfo": [],
     "creativeTab": {
