@@ -128,51 +128,6 @@
       "registry_name": "quash_tea_furnace"
     },
     {
-      "name": "QCtoQB",
-      "type": "recipe",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "q_cto_qb"
-    },
-    {
-      "name": "QBtoQC",
-      "type": "recipe",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "q_bto_qc"
-    },
-    {
-      "name": "QBtoQL",
-      "type": "recipe",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "q_bto_ql"
-    },
-    {
-      "name": "QLtoQB",
-      "type": "recipe",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "q_lto_qb"
-    },
-    {
-      "name": "QTtoQL",
-      "type": "recipe",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "q_tto_ql"
-    },
-    {
       "name": "QCLeather",
       "type": "recipe",
       "sortid": 21,
@@ -1400,15 +1355,6 @@
       "registry_name": "singularity_sword_craft"
     },
     {
-      "name": "FusionArmourHelmRecipe",
-      "type": "recipe",
-      "sortid": 133,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fusion_armour_helm_recipe"
-    },
-    {
       "name": "FusionArmourChestplateRecipe",
       "type": "recipe",
       "sortid": 134,
@@ -1706,10 +1652,10 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.quashconomiestwo.the_good_goop": "The Good Goop",
       "item.quashconomiestwo.quash_god_armour_boots": "Quash God Armour Boots",
-      "item.quashconomiestwo.essenceof_ra": "Ra Essence",
+      "item.quashconomiestwo.the_good_goop": "The Good Goop",
       "block.quashconomiestwo.quashtea_ore": "Quashtea Ore",
+      "item.quashconomiestwo.essenceof_ra": "Ra Essence",
       "block.quashconomiestwo.quash_log": "Quash Log",
       "entity.quashconomiestwo.penguin_soldier": "Penguin Soldier",
       "block.quashconomiestwo.quash_door": "Quash Door",

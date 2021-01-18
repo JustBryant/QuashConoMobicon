@@ -3,7 +3,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "0 2",
-    "3 5"
+    "345"
   ],
   "key": {
     "0": {
@@ -15,12 +15,15 @@
     "3": {
       "item": "quashconomiestwo:essenceof_ra"
     },
+    "4": {
+      "item": "quashconomiestwo:quash_god_armour_boots"
+    },
     "5": {
-      "item": "quashconomiestwo:unknown_element"
+      "item": "quashconomiestwo:tea_singularity"
     }
   },
   "result": {
-    "item": "quashconomiestwo:unknown_element_boots",
+    "item": "quashconomiestwo:fusion_armour_boots",
     "count": 1
   }
 }

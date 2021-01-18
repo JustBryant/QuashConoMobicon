@@ -3,27 +3,30 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
-    "3 5"
+    "345"
   ],
   "key": {
     "0": {
       "item": "quashconomiestwo:essenceof_slifer"
     },
     "1": {
-      "item": "quashconomiestwo:unknown_element"
+      "item": "quashconomiestwo:essenceof_ra"
     },
     "2": {
       "item": "quashconomiestwo:essenceof_obelisk"
     },
     "3": {
-      "item": "quashconomiestwo:essenceof_ra"
+      "item": "quashconomiestwo:tea_singularity"
+    },
+    "4": {
+      "item": "quashconomiestwo:quash_god_armour_helmet"
     },
     "5": {
-      "item": "quashconomiestwo:quash_god_armour_helmet"
+      "item": "quashconomiestwo:tea_singularity"
     }
   },
   "result": {
-    "item": "quashconomiestwo:unknown_element_helmet",
+    "item": "quashconomiestwo:fusion_armour_helmet",
     "count": 1
   }
 }

@@ -10,28 +10,28 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:QuashGodArmour.body"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:QuashTeaArmour.body"
+        "value": "CUSTOM:TeaBlock"
       },
       {
         "value": "CUSTOM:QuashGodArmour.body"
+      },
+      {
+        "value": "CUSTOM:TeaBlock"
       },
       {
         "value": "CUSTOM:TeaSingularity"
       },
       {
-        "value": "CUSTOM:QuashTeaArmour.body"
+        "value": "CUSTOM:TeaSingularity"
       },
       {
-        "value": "CUSTOM:EssenceofRa"
+        "value": "CUSTOM:TeaSingularity"
       },
       {
         "value": "CUSTOM:EssenceofSlifer"
+      },
+      {
+        "value": "CUSTOM:EssenceofRa"
       },
       {
         "value": "CUSTOM:EssenceofObelisk"
