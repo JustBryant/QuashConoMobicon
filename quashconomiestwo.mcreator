@@ -933,15 +933,6 @@
       "registry_name": "quashcent_block_revert_recipe"
     },
     {
-      "name": "RevealingLightSword",
-      "type": "tool",
-      "sortid": 110,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "revealing_light_sword"
-    },
-    {
       "name": "QuashGrass",
       "type": "block",
       "sortid": 111,
@@ -1184,15 +1175,6 @@
       "registry_name": "tea_compressor_craft"
     },
     {
-      "name": "SingularityTeaBlade",
-      "type": "tool",
-      "sortid": 130,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "singularity_tea_blade"
-    },
-    {
       "name": "TeaSingularity",
       "type": "item",
       "sortid": 131,
@@ -1200,15 +1182,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "tea_singularity"
-    },
-    {
-      "name": "SingularitySwordCraft",
-      "type": "recipe",
-      "sortid": 132,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "singularity_sword_craft"
     },
     {
       "name": "FusionArmourChestplateRecipe",
@@ -1254,50 +1227,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "fusion_armour_helm_two"
-    },
-    {
-      "name": "GravityAxeGrarl",
-      "type": "tool",
-      "sortid": 139,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "gravity_axe_grarl"
-    },
-    {
-      "name": "MagicalMallet",
-      "type": "tool",
-      "sortid": 140,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "magical_mallet"
-    },
-    {
-      "name": "MilleniumShieldRightClickedInAir",
-      "type": "procedure",
-      "sortid": 141,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "millenium_shield_right_clicked_in_air",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "MilleniumShield",
-      "type": "item",
-      "sortid": 141,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "millenium_shield"
     },
     {
       "name": "QuashDoorRecipeTwo",
@@ -1417,58 +1346,6 @@
       "registry_name": "quash_trap_door"
     },
     {
-      "name": "LightLaserRightClickedInAir",
-      "type": "procedure",
-      "sortid": 121,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "light_laser_right_clicked_in_air",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "LightLaserOn",
-      "type": "tool",
-      "sortid": 122,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "light_laser_on"
-    },
-    {
-      "name": "LightLaser",
-      "type": "tool",
-      "sortid": 121,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "light_laser"
-    },
-    {
-      "name": "LightLaserOnRightClickedInAir",
-      "type": "procedure",
-      "sortid": 122,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "light_laser_on_right_clicked_in_air",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "StripLog",
       "type": "procedure",
       "sortid": 158,
@@ -1518,10 +1395,8 @@
       "block.quashconomiestwo.tea_block": "Tea Block",
       "block.quashconomiestwo.quashcent_ore": "Quashcent Ore",
       "item.quashconomiestwo.enhanced_quash_blade": "Enhanced Quash Blade",
-      "item.quashconomiestwo.millenium_shield": "Millenium Shield",
       "block.quashconomiestwo.quash_slabs": "Quash Slabs",
       "item.quashconomiestwo.fusion_armour_chestplate": "Fusion Armour Body",
-      "item.quashconomiestwo.light_laser": "Light Laser",
       "item.quashconomiestwo.fusion_armour_helmet": "Fusion Armour Helmet",
       "item.quashconomiestwo.goopbuck": "Goopbuck",
       "item.quashconomiestwo.quash_god_armour_chestplate": "Quash God Armour Body",
@@ -1542,12 +1417,10 @@
       "item.quashconomiestwo.quashling": "Quashling",
       "block.quashconomiestwo.quash_grass": "Quash Grass",
       "block.quashconomiestwo.quash_planks": "Quash Planks",
-      "item.quashconomiestwo.magical_mallet": "Magical Mallet",
       "item.quashconomiestwo.fusion_alloy": "Fusion Alloy",
       "block.quashconomiestwo.tea_compressor": "Tea Compressor",
       "block.quashconomiestwo.quash_leaves": "Quash Leaves",
       "item.quashconomiestwo.quashbuck": "Quashbuck",
-      "item.quashconomiestwo.revealing_light_sword": "Revealing Light Sword",
       "item.quashconomiestwo.goopling": "Goopling",
       "item.quashconomiestwo.quash_res": "Resistance of the Quash",
       "block.quashconomiestwo.quash_dirt": "Quash Dirt",
@@ -1559,7 +1432,6 @@
       "block.quashconomiestwo.quash_stairs": "Quash Stairs",
       "item.quashconomiestwo.quash_tea": "Quashtea",
       "item.quashconomiestwo.quash_axe": "Quash Axe",
-      "item.quashconomiestwo.light_laser_on": "Light Laser",
       "item.quashconomiestwo.quash_shovel": "Quash Shovel",
       "item.quashconomiestwo.quash_cent": "Quashcent",
       "item.quashconomiestwo.quash_booster": "Quash Booster",
@@ -1567,10 +1439,8 @@
       "block.quashconomiestwo.quash_trap_door": "Quash Trapdoor",
       "item.quashconomiestwo.quash_tea_armour_helmet": "QT Helmet",
       "item.quashconomiestwo.tea_singularity": "Tea Singularity",
-      "item.quashconomiestwo.singularity_tea_blade": "Singularity Tea Blade",
       "block.quashconomiestwo.quashcent_block": "Quashcent Block",
       "item.quashconomiestwo.quash_god_armour_helmet": "Quash God Armour Helmet",
-      "item.quashconomiestwo.gravity_axe_grarl": "Gravity Axe Grarl",
       "item.quashconomiestwo.goopcent": "Goopcent",
       "item.quashconomiestwo.quash_tea_armour_leggings": "QT Leggings"
     }
@@ -1578,7 +1448,7 @@
   "workspaceSettings": {
     "modid": "quashconomiestwo",
     "modName": "Quashconomies Two",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "description": "Quashconomies mod for the Duelist Kingdoms server!",
     "author": "KingdomsMC Community",
     "websiteURL": "https://discord.gg/u2nF8VC",

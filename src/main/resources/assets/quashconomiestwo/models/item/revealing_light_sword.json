@@ -1,9 +1,0 @@
-{
-  "parent": "quashconomiestwo:custom/sorl_sword_fixed",
-  "textures": {
-    "0": "quashconomiestwo:blocks/sorlgreentexture",
-    "1": "quashconomiestwo:blocks/sorlwhitetexture",
-    "missing": "quashconomiestwo:blocks/sorlgreentexture",
-    "particle": "quashconomiestwo:items/sword"
-  }
-}
